@@ -91,6 +91,8 @@ public class AbilityManager : MonoBehaviour
 
     private void ResetAbilities()
     {
-
+        RuntimeStats.TimeTillJumpApex = BaseStats.TimeTillJumpApex;
+        RuntimeStats.MaxJumpHeight = BaseStats.MaxJumpHeight;
+        RuntimeStats.MaxNumberJumps = BaseStats.MaxNumberJumps;
     }
 }

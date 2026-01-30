@@ -31,7 +31,7 @@ MonoBehaviour:
   FallGravityMultiplayer: 1.2
   JumpHangTimeThreshold: 1
   JumpHangGravityMultiplier: 0.5
-  MaxNumberJumps: 2
+  MaxNumberJumps: 1
   AirAcceleration: 100
   AirDeceleration: 5
   RunAirAcceleration: 150

@@ -25,13 +25,13 @@ MonoBehaviour:
   RunDeceleration: 79
   MaxJumpHeight: 2
   MinJumpHeight: 1
-  TimeTillJumpApex: 0.3
+  TimeTillJumpApex: 0.6
   JumpHeightCompensationFactor: 1.06
   JumpGravityMultiplayer: 1
   FallGravityMultiplayer: 1.2
   JumpHangTimeThreshold: 1
   JumpHangGravityMultiplier: 5.47
-  MaxNumberJumps: 1
+  MaxNumberJumps: 4
   AirAcceleration: 100
   AirDeceleration: 5
   RunAirAcceleration: 150
@@ -75,4 +75,4 @@ MonoBehaviour:
   WallDetectionRayHeightMultiplayer: 0.9
   GroundLayer:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 9
