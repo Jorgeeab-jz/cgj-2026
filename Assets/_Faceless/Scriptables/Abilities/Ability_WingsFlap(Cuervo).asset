@@ -15,8 +15,10 @@ MonoBehaviour:
   Type: 2
   AbilityName: Vuelo del Cuervo
   Description: 
-  Icon: {fileID: 0}
+  Icon: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  AbilityColor: {r: 0.22352941, g: 0, b: 0.5176471, a: 1}
   TotalJumps: 4
+  _timeToJumpApex: 0.6
   Flap1HeightRatio: 0.8
   Flap2HeightRatio: 0.6
   Flap3HeightRatio: 0.4

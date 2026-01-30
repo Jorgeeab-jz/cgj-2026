@@ -76,6 +76,12 @@ public class TelekinesisAbilitySO : AbilitySO
 
     private void HandleGrabInput(bool isPressed)
     {
+        // Block input if clicking on UI (but allow releasing existing grab)
+        if (isPressed && UnityEngine.EventSystems.EventSystem.current != null && UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+
         if (isPressed)
         {
             TryGrab();

@@ -6,6 +6,10 @@ public class AbilityManager : MonoBehaviour
     [Header("References")]
     [SerializeField] private PlayerControllerStats _baseStats; // The original stats asset
     [SerializeField] private AbilityInputReader _inputReader;
+
+    public event System.Action<AbilitySO> OnAbilityUnlocked;
+    public event System.Action<AbilityType> OnAbilityEquipped;
+
     
     [Header("State")]
     [SerializeField] private PlayerControllerStats _runtimeStats; // The clone we modify
@@ -13,7 +17,8 @@ public class AbilityManager : MonoBehaviour
     [SerializeField] private AbilitySO _currentActiveAbility;
 
     public PlayerControllerStats RuntimeStats => _runtimeStats;
-    public PlayerControllerStats BaseStats => _baseStats; 
+    public PlayerControllerStats BaseStats => _baseStats;
+    public List<AbilitySO> UnlockedAbilities => _unlockedAbilities;
 
     private void Awake()
     {
@@ -54,6 +59,7 @@ public class AbilityManager : MonoBehaviour
         AbilitySO instance = Instantiate(abilityPrefab);
         instance.Initialize(gameObject, this, _inputReader);
         _unlockedAbilities.Add(instance);
+        OnAbilityUnlocked?.Invoke(instance);
 
         // If it's a passive stat modifier, apply it immediately
         if (instance is StatModifierAbilitySO statAbility)
@@ -82,6 +88,13 @@ public class AbilityManager : MonoBehaviour
         {
             _currentActiveAbility.OnEquip();
         }
+
+        OnAbilityEquipped?.Invoke(ability != null ? ability.Type : AbilityType.None);
+    }
+
+    public void UnequipCurrentAbility()
+    {
+        EquipAbility(null);
     }
 
     public bool HasAbility(AbilityType type)

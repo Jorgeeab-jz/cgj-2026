@@ -7,6 +7,7 @@ public abstract class AbilitySO : ScriptableObject
     public string AbilityName;
     [TextArea] public string Description;
     public Sprite Icon;
+    public Color AbilityColor = Color.white; // For testing and visual purposes
 
     protected GameObject Owner;
     protected AbilityInputReader InputReader;

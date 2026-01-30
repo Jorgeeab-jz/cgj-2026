@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ef3bc945e0f1946a745113a7d7f792, type: 3}
+  m_Name: Ability_Wizard(Sabio)
+  m_EditorClassIdentifier: Assembly-CSharp::WizardAbilitySO
+  Type: 4
+  AbilityName: Poder Arcano
+  Description: 
+  Icon: {fileID: 0}
+  AbilityColor: {r: 0.83790636, g: 0, b: 1, a: 1}
+  FireOrbPrefab: {fileID: 6699580696638159749, guid: 47e5c5362d863e244b3cf6bbc3e685fa, type: 3}
+  IceOrbPrefab: {fileID: 3780635186595388514, guid: 5fe0e8447c4ec72429d0d39845f9ec40, type: 3}
+  OrbSpeed: 10
+  FireRate: 0.5

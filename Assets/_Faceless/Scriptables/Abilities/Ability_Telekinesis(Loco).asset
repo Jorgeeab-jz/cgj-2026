@@ -15,7 +15,8 @@ MonoBehaviour:
   Type: 1
   AbilityName: Mente sobre Materia
   Description: 
-  Icon: {fileID: 0}
+  Icon: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  AbilityColor: {r: 0.31764707, g: 1, b: 0.42352942, a: 1}
   GrabRange: 10
   ThrowForce: 15
   GrabbableLayers:
