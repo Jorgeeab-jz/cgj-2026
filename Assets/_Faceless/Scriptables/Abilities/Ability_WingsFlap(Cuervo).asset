@@ -17,7 +17,11 @@ MonoBehaviour:
   Description: 
   Icon: {fileID: 0}
   TotalJumps: 4
-  FirstJumpPowerPercent: 1
-  Flap1PowerPercent: 0.8
-  Flap2PowerPercent: 0.6
-  Flap3PowerPercent: 0.4
+  Flap1HeightRatio: 0.8
+  Flap2HeightRatio: 0.6
+  Flap3HeightRatio: 0.4
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  GroundCheckDistance: 0.1
+  JumpActionName: Jump

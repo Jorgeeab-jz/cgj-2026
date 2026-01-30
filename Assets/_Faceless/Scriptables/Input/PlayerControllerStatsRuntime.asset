@@ -17,20 +17,20 @@ MonoBehaviour:
   ResetNumberJumpOnWall: 1
   ResetNumberDashOnWall: 1
   CanJumpInTheAirTowardsTheWall: 1
-  WalkSpeed: 3
+  WalkSpeed: 5
   WalkAcceleration: 150
   WalkDeceleration: 150
-  RunSpeed: 1
+  RunSpeed: 5
   RunAcceleration: 47
   RunDeceleration: 79
-  MaxJumpHeight: 1.5
+  MaxJumpHeight: 2
   MinJumpHeight: 1
   TimeTillJumpApex: 0.3
   JumpHeightCompensationFactor: 1.06
   JumpGravityMultiplayer: 1
   FallGravityMultiplayer: 1.2
   JumpHangTimeThreshold: 1
-  JumpHangGravityMultiplier: 0.5
+  JumpHangGravityMultiplier: 5.47
   MaxNumberJumps: 1
   AirAcceleration: 100
   AirDeceleration: 5
@@ -65,7 +65,7 @@ MonoBehaviour:
   MaxFallSpeed: 30
   MaxUpwardSpeed: 50
   GroundGravity: -1.5
-  BaseMovementAnimationSpeed: 3
+  BaseMovementAnimationSpeed: 15
   BaseRunAnimationSpeed: 12
   BaseCrouchAnimationSpeed: 5
   GroundDetectionRayLenght: 0.02
