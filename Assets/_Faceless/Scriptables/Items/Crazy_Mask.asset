@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 192d18c5be89e7b469ff61b067802d8b, type: 3}
+  m_Name: Crazy_Mask
+  m_EditorClassIdentifier: Assembly-CSharp::AbilityItem
+  ItemName: "M\xE1scara del Loco"
+  Description: 
+  Icon: {fileID: 0}
+  AbilityToUnlock: {fileID: 11400000, guid: 4298ab8c23a3d3f44994fdc6ed78245e, type: 2}

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee8af4717e6014f46b13c8356369b99a, type: 3}
+  m_Name: PlayerControllerStats
+  m_EditorClassIdentifier: PlatformerController2D::PlayerControllerStats
+  movementSettings:
+    defaultMovementMode: 1
+  ResetNumberJumpOnWall: 1
+  ResetNumberDashOnWall: 1
+  CanJumpInTheAirTowardsTheWall: 1
+  WalkSpeed: 3
+  WalkAcceleration: 150
+  WalkDeceleration: 150
+  RunSpeed: 1
+  RunAcceleration: 150
+  RunDeceleration: 150
+  MaxJumpHeight: 3.5
+  MinJumpHeight: 1
+  TimeTillJumpApex: 0.3
+  JumpHeightCompensationFactor: 1.06
+  JumpGravityMultiplayer: 1
+  FallGravityMultiplayer: 1.2
+  JumpHangTimeThreshold: 1
+  JumpHangGravityMultiplier: 0.5
+  MaxNumberJumps: 2
+  AirAcceleration: 100
+  AirDeceleration: 5
+  RunAirAcceleration: 150
+  RunAirDeceleration: 23
+  WallFallSpeed: 10
+  WallFallAirAcceleration: 150
+  WallFallAirDeceleration: 23
+  DashFallSpeed: 15
+  DashFallAirAcceleration: 80
+  DashFallAirDeceleration: 80
+  StartVelocityWallSlide: 2.5
+  WallSlideSpeedMax: 3.5
+  WallSlideDeceleration: 5
+  WallJumpClimb: {x: 20, y: 25}
+  WallJumpOff: {x: 5, y: 8}
+  WallLeap: {x: 40, y: 15}
+  DashVelocity: 30
+  MaxNumberDash: 2
+  CrouchMoveSpeed: 5
+  CrouchHeight: 0.6
+  CrouchOffset: 0.2
+  CrouchRollVelocity: 10
+  CrouchAcceleration: 150
+  CrouchDeceleration: 150
+  CoyoteTime: 0.13
+  BufferTime: 0.2
+  WallFallTime: 0.2
+  DashTime: 0.11
+  CrouchRollTime: 0.25
+  WallJumpTime: 0.05
+  MaxFallSpeed: 30
+  MaxUpwardSpeed: 50
+  GroundGravity: -3
+  BaseMovementAnimationSpeed: 3
+  BaseRunAnimationSpeed: 12
+  BaseCrouchAnimationSpeed: 5
+  GroundDetectionRayLenght: 0.02
+  HeadDetectionRayLength: 0.02
+  HeadWidth: 1
+  WallDetectionRayLength: 0.015
+  WallDetectionRayHeightMultiplayer: 0.9
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 1
