@@ -1,4 +1,5 @@
 using UnityEngine;
+using DG.Tweening;
 
 public abstract class WizardOrb : MonoBehaviour
 {
@@ -17,21 +18,29 @@ public abstract class WizardOrb : MonoBehaviour
         {
             Rb.linearVelocity = direction * Speed;
         }
-        
+
+
         Destroy(gameObject, LifeTime);
+    }
+
+    private void OnEnable()
+    {
+        transform.DORotate(new Vector3(0, 0, -360), 1f, RotateMode.FastBeyond360)
+    .SetLoops(-1)
+    .SetEase(Ease.Linear);
     }
 
     protected virtual void OnTriggerEnter2D(Collider2D other)
     {
         // Ignore if layer is not in CollisionLayers (optional check if using collision matrix)
-        if (((1 << other.gameObject.layer) & CollisionLayers) == 0) 
+        if (((1 << other.gameObject.layer) & CollisionLayers) == 0)
         {
             Debug.Log($"[WizardOrb] Ignored object {other.gameObject.name} on layer {LayerMask.LayerToName(other.gameObject.layer)} due to CollisionLayers mask.");
             return;
         }
 
         HandleCollision(other);
-        
+
         if (HitEffectPrefab != null)
         {
             Instantiate(HitEffectPrefab, transform.position, Quaternion.identity);
@@ -43,7 +52,7 @@ public abstract class WizardOrb : MonoBehaviour
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
         if (((1 << collision.gameObject.layer) & CollisionLayers) == 0) return;
-        
+
         HandleCollision(collision.collider);
 
         if (HitEffectPrefab != null)

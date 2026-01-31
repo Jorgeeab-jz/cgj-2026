@@ -5,6 +5,7 @@ using UnityEngine;
 public class ManagerLinkerSO : ScriptableObject
 {
     public event Action<AbilityType> OnAbilityEquippedMusicRequest;
+    public Func<Transform> GetPlayerTransform;
 
     public void RaiseAbilityEquippedMusicRequest(AbilityType abilityType)
     {

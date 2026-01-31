@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 [CreateAssetMenu(menuName = "Abilities/Wizard")]
 public class WizardAbilitySO : AbilitySO
@@ -11,41 +12,100 @@ public class WizardAbilitySO : AbilitySO
     [Tooltip("Time between shots in seconds")]
     public float FireRate = 0.5f;
 
+    [Tooltip("Time before the orb spawns")]
+    public float CastDelay = 0.2f;
+    [Tooltip("Time after spawn before player can move/shoot again")]
+    public float RecoveryTime = 0.3f;
+
     private float _lastFireTime;
     private float _lastIceTime;
+    private Animator _animator;
+    private bool _isCasting;
+    private Coroutine _castCoroutine;
+    private float _cachedRunSpeed; // To store speed during cast
+
+    public override void Initialize(GameObject owner, AbilityManager manager, AbilityInputReader inputReader)
+    {
+        base.Initialize(owner, manager, inputReader);
+        if (owner != null)
+        {
+            _animator = owner.GetComponentInChildren<Animator>();
+        }
+    }
+
+    public override void OnUnequip()
+    {
+        base.OnUnequip();
+        // Encapsulate cleanup to avoid stuck state
+        if (_isCasting)
+        {
+            if (Manager != null && _castCoroutine != null) Manager.StopCoroutine(_castCoroutine);
+            if (Manager != null && Manager.RuntimeStats != null) Manager.RuntimeStats.RunSpeed = _cachedRunSpeed;
+            _isCasting = false;
+        }
+    }
 
     public override void OnUpdate()
     {
         base.OnUpdate();
 
+        if (_isCasting) return;
+
         // Check Primary (Fire)
         if (InputReader.IsPrimaryPressed && Time.time >= _lastFireTime + FireRate)
         {
-            if (AttemptShoot(FireOrbPrefab, ref _lastFireTime))
-            {
-               // Success
-            }
+            StartCast(true);
         }
 
         // Check Secondary (Ice)
-        if (InputReader.IsSecondaryPressed && Time.time >= _lastIceTime + FireRate)
+        else if (InputReader.IsSecondaryPressed && Time.time >= _lastIceTime + FireRate)
         {
-            if (AttemptShoot(IceOrbPrefab, ref _lastIceTime))
-            {
-                // Success
-            }
+            StartCast(false);
         }
     }
 
-    private bool AttemptShoot(GameObject prefab, ref float lastTime)
+    private void StartCast(bool isFire)
     {
-        if (prefab == null || Owner == null) return false;
+        if (UnityEngine.EventSystems.EventSystem.current != null && UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject()) return;
+        if (Owner == null || Manager == null) return;
 
-        // Prevent shooting through UI
-        if (UnityEngine.EventSystems.EventSystem.current != null && UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
-        {
-            return false;
-        }
+        _castCoroutine = Manager.StartCoroutine(CastRoutine(isFire));
+    }
+
+    private IEnumerator CastRoutine(bool isFire)
+    {
+        _isCasting = true;
+
+        // 1. Lock Movement
+        _cachedRunSpeed = Manager.RuntimeStats.RunSpeed;
+        Manager.RuntimeStats.RunSpeed = 0f;
+
+        // 2. Play Animation
+        PlayAnimation(isFire ? "CastFire" : "CastIce");
+
+        // 3. Wait for Cast Point
+        yield return new WaitForSeconds(CastDelay);
+
+        // 4. Spawn Orb
+        GameObject prefab = isFire ? FireOrbPrefab : IceOrbPrefab;
+        SpawnOrb(prefab);
+        
+        if (isFire) _lastFireTime = Time.time;
+        else _lastIceTime = Time.time;
+
+        // 5. Recovery Time
+        yield return new WaitForSeconds(RecoveryTime);
+
+        // 6. Return to Idle and Unlock
+        PlayAnimation("Idle");
+        Manager.RuntimeStats.RunSpeed = _cachedRunSpeed;
+        _isCasting = false;
+        _castCoroutine = null;
+    }
+
+    private void SpawnOrb(GameObject prefab)
+    {
+        if (prefab == null) return;
 
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(InputReader.MousePosition);
         Vector2 spawnPos = Owner.transform.position;
@@ -58,8 +118,15 @@ public class WizardAbilitySO : AbilitySO
         {
             orbScript.Initialize(direction, OrbSpeed);
         }
+    }
 
-        lastTime = Time.time;
-        return true;
+
+
+    private void PlayAnimation(string animationName)
+    {
+        if (_animator != null)
+        {
+            _animator.Play(animationName);
+        }
     }
 }
