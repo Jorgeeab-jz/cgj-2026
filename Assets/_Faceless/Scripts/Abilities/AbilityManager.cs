@@ -6,6 +6,7 @@ public class AbilityManager : MonoBehaviour
     [Header("References")]
     [SerializeField] private PlayerControllerStats _baseStats; // The original stats asset
     [SerializeField] private AbilityInputReader _inputReader;
+    [SerializeField] private ManagerLinkerSO _managerLinker;
 
     public event System.Action<AbilitySO> OnAbilityUnlocked;
     public event System.Action<AbilityType> OnAbilityEquipped;
@@ -89,7 +90,9 @@ public class AbilityManager : MonoBehaviour
             _currentActiveAbility.OnEquip();
         }
 
-        OnAbilityEquipped?.Invoke(ability != null ? ability.Type : AbilityType.None);
+        AbilityType type = ability != null ? ability.Type : AbilityType.None;
+        OnAbilityEquipped?.Invoke(type);
+        _managerLinker?.RaiseAbilityEquippedMusicRequest(type);
     }
 
     public void UnequipCurrentAbility()

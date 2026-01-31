@@ -3,6 +3,6 @@ public enum AbilityType
     None,
     MaskOfTheCrazyMan, // Telekinesis
     MaskOfTheCrow, // Wings Flap
-    MaskOfTheDragon, // Teleport
+    MaskOfTheBovine, // Teleport
     MaskOfTheWizard, // Fire/Ice Orbs
 }

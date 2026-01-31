@@ -1,0 +1,7022 @@
+fileFormatVersion: 2
+guid: 78f323088fff397488e3117bb8bc42ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8834587055015442033
+    second: TODO_TILES_0
+  - first:
+      213: -4104568783414265719
+    second: TODO_TILES_1
+  - first:
+      213: -8473643512738823073
+    second: TODO_TILES_2
+  - first:
+      213: 6664622422433215013
+    second: TODO_TILES_3
+  - first:
+      213: -7698831591563811176
+    second: TODO_TILES_4
+  - first:
+      213: 6906122666431824342
+    second: TODO_TILES_5
+  - first:
+      213: 4672625503287764463
+    second: TODO_TILES_6
+  - first:
+      213: 6471664626890592921
+    second: TODO_TILES_7
+  - first:
+      213: 7322037079042601472
+    second: TODO_TILES_8
+  - first:
+      213: 7396012533773043324
+    second: TODO_TILES_9
+  - first:
+      213: -2160926211655882117
+    second: TODO_TILES_10
+  - first:
+      213: -1815747957087232245
+    second: TODO_TILES_11
+  - first:
+      213: -221627121101465376
+    second: TODO_TILES_12
+  - first:
+      213: -1705549412666609772
+    second: TODO_TILES_13
+  - first:
+      213: 7630532797571255252
+    second: TODO_TILES_14
+  - first:
+      213: 1602844880904808624
+    second: TODO_TILES_15
+  - first:
+      213: -3081117792444135093
+    second: TODO_TILES_16
+  - first:
+      213: 509690917217068804
+    second: TODO_TILES_17
+  - first:
+      213: -8127771925475935615
+    second: TODO_TILES_18
+  - first:
+      213: -5095239807612770003
+    second: TODO_TILES_19
+  - first:
+      213: -4993579879924586541
+    second: TODO_TILES_20
+  - first:
+      213: -264974705818849945
+    second: TODO_TILES_21
+  - first:
+      213: -3392157651763210259
+    second: TODO_TILES_22
+  - first:
+      213: 1999621658159140216
+    second: TODO_TILES_23
+  - first:
+      213: -5527578056097483201
+    second: TODO_TILES_24
+  - first:
+      213: -1972071461688593595
+    second: TODO_TILES_25
+  - first:
+      213: 1959203277997112651
+    second: TODO_TILES_26
+  - first:
+      213: -502863679295040495
+    second: TODO_TILES_27
+  - first:
+      213: 3981428494389187425
+    second: TODO_TILES_28
+  - first:
+      213: -1951567724786911211
+    second: TODO_TILES_29
+  - first:
+      213: -3587214968784457621
+    second: TODO_TILES_30
+  - first:
+      213: 4704478856679889451
+    second: TODO_TILES_31
+  - first:
+      213: 76242799587485477
+    second: TODO_TILES_32
+  - first:
+      213: 2056630527142607476
+    second: TODO_TILES_33
+  - first:
+      213: -3934698550717710824
+    second: TODO_TILES_34
+  - first:
+      213: 6847676481819744273
+    second: TODO_TILES_35
+  - first:
+      213: 2219735038834278765
+    second: TODO_TILES_36
+  - first:
+      213: 3280494588496574442
+    second: TODO_TILES_37
+  - first:
+      213: 6096610147997276989
+    second: TODO_TILES_38
+  - first:
+      213: -1323449860401549751
+    second: TODO_TILES_39
+  - first:
+      213: -2700207003405833091
+    second: TODO_TILES_40
+  - first:
+      213: -4072428084555786163
+    second: TODO_TILES_41
+  - first:
+      213: 6036518909620377016
+    second: TODO_TILES_42
+  - first:
+      213: -7163650427573347695
+    second: TODO_TILES_43
+  - first:
+      213: -7904742490367526507
+    second: TODO_TILES_44
+  - first:
+      213: -5452269660488173366
+    second: TODO_TILES_45
+  - first:
+      213: 4730863228598520362
+    second: TODO_TILES_46
+  - first:
+      213: -5477420399940044296
+    second: TODO_TILES_47
+  - first:
+      213: -3418778242591104989
+    second: TODO_TILES_48
+  - first:
+      213: 2934494901858939614
+    second: TODO_TILES_49
+  - first:
+      213: 7783194773439920797
+    second: TODO_TILES_50
+  - first:
+      213: 6299254417403090260
+    second: TODO_TILES_51
+  - first:
+      213: -7746951281114451038
+    second: TODO_TILES_52
+  - first:
+      213: -3506327310610301534
+    second: TODO_TILES_53
+  - first:
+      213: -2706794157448914513
+    second: TODO_TILES_54
+  - first:
+      213: -1348763542155506279
+    second: TODO_TILES_55
+  - first:
+      213: -475519265018324648
+    second: TODO_TILES_56
+  - first:
+      213: -8312030116258046090
+    second: TODO_TILES_57
+  - first:
+      213: 2470893577083947502
+    second: TODO_TILES_58
+  - first:
+      213: 926882567273284118
+    second: TODO_TILES_59
+  - first:
+      213: 6285637521165433677
+    second: TODO_TILES_60
+  - first:
+      213: 1687667731127614253
+    second: TODO_TILES_61
+  - first:
+      213: -3418626996621313164
+    second: TODO_TILES_62
+  - first:
+      213: 7633617726790974446
+    second: TODO_TILES_63
+  - first:
+      213: 2782399292719678807
+    second: TODO_TILES_64
+  - first:
+      213: -4503800888657471521
+    second: TODO_TILES_65
+  - first:
+      213: -4987803885677482239
+    second: TODO_TILES_66
+  - first:
+      213: 9189504059695420591
+    second: TODO_TILES_67
+  - first:
+      213: 6832088056995097102
+    second: TODO_TILES_68
+  - first:
+      213: 7229963962072720161
+    second: TODO_TILES_69
+  - first:
+      213: -5357300614914493577
+    second: TODO_TILES_70
+  - first:
+      213: -6363307432729094322
+    second: TODO_TILES_71
+  - first:
+      213: -190497476532799438
+    second: TODO_TILES_72
+  - first:
+      213: 580364492508144184
+    second: TODO_TILES_73
+  - first:
+      213: -63783459725190903
+    second: TODO_TILES_74
+  - first:
+      213: -4772316810972225370
+    second: TODO_TILES_75
+  - first:
+      213: -3620347676172824960
+    second: TODO_TILES_76
+  - first:
+      213: -5817986627312072419
+    second: TODO_TILES_77
+  - first:
+      213: -564364102100890315
+    second: TODO_TILES_78
+  - first:
+      213: 3692742583560812640
+    second: TODO_TILES_79
+  - first:
+      213: -2619773517187115258
+    second: TODO_TILES_80
+  - first:
+      213: -3038378758901004087
+    second: TODO_TILES_81
+  - first:
+      213: -2744737301030417558
+    second: TODO_TILES_82
+  - first:
+      213: -2968391678827928821
+    second: TODO_TILES_83
+  - first:
+      213: 8918095662969783095
+    second: TODO_TILES_84
+  - first:
+      213: 9086271853739856771
+    second: TODO_TILES_85
+  - first:
+      213: -3543989762576877486
+    second: TODO_TILES_86
+  - first:
+      213: 358747014463237265
+    second: TODO_TILES_87
+  - first:
+      213: -8066041782357911405
+    second: TODO_TILES_88
+  - first:
+      213: 4838381592681462156
+    second: TODO_TILES_89
+  - first:
+      213: 3406919146912919852
+    second: TODO_TILES_90
+  - first:
+      213: -1204057797918683803
+    second: TODO_TILES_91
+  - first:
+      213: -1977037927158808202
+    second: TODO_TILES_92
+  - first:
+      213: 7752250655845892193
+    second: TODO_TILES_93
+  - first:
+      213: 6437958102298114085
+    second: TODO_TILES_94
+  - first:
+      213: 1613401518827986450
+    second: TODO_TILES_95
+  - first:
+      213: 7231126463881224561
+    second: TODO_TILES_96
+  - first:
+      213: -3939528368042791084
+    second: TODO_TILES_97
+  - first:
+      213: 853279406165029124
+    second: TODO_TILES_98
+  - first:
+      213: -5515331279363860905
+    second: TODO_TILES_99
+  - first:
+      213: 1170959826205247554
+    second: TODO_TILES_100
+  - first:
+      213: -4000318205162967367
+    second: TODO_TILES_101
+  - first:
+      213: -2077210674321649052
+    second: TODO_TILES_102
+  - first:
+      213: -8737574543618459324
+    second: TODO_TILES_103
+  - first:
+      213: -6259635102043245980
+    second: TODO_TILES_104
+  - first:
+      213: -1721541507158102432
+    second: TODO_TILES_105
+  - first:
+      213: -7900694610926260615
+    second: TODO_TILES_106
+  - first:
+      213: 2998002782227598584
+    second: TODO_TILES_107
+  - first:
+      213: -8404410066219599945
+    second: TODO_TILES_108
+  - first:
+      213: -5104031328097642132
+    second: TODO_TILES_109
+  - first:
+      213: 1488974085541046648
+    second: TODO_TILES_110
+  - first:
+      213: 7995777351499256407
+    second: TODO_TILES_111
+  - first:
+      213: -407353753962642788
+    second: TODO_TILES_112
+  - first:
+      213: 1042007932298720351
+    second: TODO_TILES_113
+  - first:
+      213: -8144768229053322993
+    second: TODO_TILES_114
+  - first:
+      213: 314643405633403539
+    second: TODO_TILES_115
+  - first:
+      213: 4574266169628886449
+    second: TODO_TILES_116
+  - first:
+      213: 2241905175240591152
+    second: TODO_TILES_117
+  - first:
+      213: -2579182432373987756
+    second: TODO_TILES_118
+  - first:
+      213: -4701337198553736182
+    second: TODO_TILES_119
+  - first:
+      213: 8871297605454527075
+    second: TODO_TILES_120
+  - first:
+      213: 2627042933531963767
+    second: TODO_TILES_121
+  - first:
+      213: -5512052633641101860
+    second: TODO_TILES_122
+  - first:
+      213: 948650889311377758
+    second: TODO_TILES_123
+  - first:
+      213: 7502132651672391911
+    second: TODO_TILES_124
+  - first:
+      213: -6141272643580894895
+    second: TODO_TILES_125
+  - first:
+      213: -1075826181935851330
+    second: TODO_TILES_126
+  - first:
+      213: -1991333956434423332
+    second: TODO_TILES_127
+  - first:
+      213: -3615944100093668254
+    second: TODO_TILES_128
+  - first:
+      213: 29839500103448599
+    second: TODO_TILES_129
+  - first:
+      213: -934068199666540999
+    second: TODO_TILES_130
+  - first:
+      213: -7585081037581922590
+    second: TODO_TILES_131
+  - first:
+      213: -3153398985518165522
+    second: TODO_TILES_132
+  - first:
+      213: -8316743730463201485
+    second: TODO_TILES_133
+  - first:
+      213: -7354219811701895008
+    second: TODO_TILES_134
+  - first:
+      213: -5504331866199094614
+    second: TODO_TILES_135
+  - first:
+      213: -780033907125782855
+    second: TODO_TILES_136
+  - first:
+      213: 144744556142305293
+    second: TODO_TILES_137
+  - first:
+      213: -6932748465291687288
+    second: TODO_TILES_138
+  - first:
+      213: 6360530812119565442
+    second: TODO_TILES_139
+  - first:
+      213: -2627770321754513526
+    second: TODO_TILES_140
+  - first:
+      213: 4381344900283569885
+    second: TODO_TILES_141
+  - first:
+      213: -520791798377023630
+    second: TODO_TILES_142
+  - first:
+      213: 7440817869111906240
+    second: TODO_TILES_143
+  - first:
+      213: -8468883721871746337
+    second: TODO_TILES_144
+  - first:
+      213: -4139404510989383835
+    second: TODO_TILES_145
+  - first:
+      213: 4332558795342522945
+    second: TODO_TILES_146
+  - first:
+      213: 3691341344917654469
+    second: TODO_TILES_147
+  - first:
+      213: -288361045804856148
+    second: TODO_TILES_148
+  - first:
+      213: -5383579193723348298
+    second: TODO_TILES_149
+  - first:
+      213: 5038035975171726801
+    second: TODO_TILES_150
+  - first:
+      213: -6387619554842690892
+    second: TODO_TILES_151
+  - first:
+      213: -3958559545984709864
+    second: TODO_TILES_152
+  - first:
+      213: 6241557740274186718
+    second: TODO_TILES_153
+  - first:
+      213: 5568115947280958167
+    second: TODO_TILES_154
+  - first:
+      213: -6059758361925040342
+    second: TODO_TILES_155
+  - first:
+      213: -539703756227860362
+    second: TODO_TILES_156
+  - first:
+      213: 7931997819526465084
+    second: TODO_TILES_157
+  - first:
+      213: 2865003019711902763
+    second: TODO_TILES_158
+  - first:
+      213: -779236961973541703
+    second: TODO_TILES_159
+  - first:
+      213: -7812705900598402475
+    second: TODO_TILES_160
+  - first:
+      213: 753033755084569079
+    second: TODO_TILES_161
+  - first:
+      213: -3937369225866813007
+    second: TODO_TILES_162
+  - first:
+      213: -7635844711278495028
+    second: TODO_TILES_163
+  - first:
+      213: -5106313495546092698
+    second: TODO_TILES_164
+  - first:
+      213: -2738154559047082854
+    second: TODO_TILES_165
+  - first:
+      213: 2580615662289543694
+    second: TODO_TILES_166
+  - first:
+      213: 6486170287603382408
+    second: TODO_TILES_167
+  - first:
+      213: -3646562993425887428
+    second: TODO_TILES_168
+  - first:
+      213: -7992751243979369749
+    second: TODO_TILES_169
+  - first:
+      213: 7359525382575093637
+    second: TODO_TILES_170
+  - first:
+      213: -3872007126076409357
+    second: TODO_TILES_171
+  - first:
+      213: -739788394015007029
+    second: TODO_TILES_172
+  - first:
+      213: 2788805183901531685
+    second: TODO_TILES_173
+  - first:
+      213: -31133634462029850
+    second: TODO_TILES_174
+  - first:
+      213: -625864269219868414
+    second: TODO_TILES_175
+  - first:
+      213: -6088462845385592112
+    second: TODO_TILES_176
+  - first:
+      213: 2025078678107049920
+    second: TODO_TILES_177
+  - first:
+      213: 9148022046054482907
+    second: TODO_TILES_178
+  - first:
+      213: 4317665354653660873
+    second: TODO_TILES_179
+  - first:
+      213: 2736147204262739341
+    second: TODO_TILES_180
+  - first:
+      213: -5859716151898946003
+    second: TODO_TILES_181
+  - first:
+      213: -1053515790455548385
+    second: TODO_TILES_182
+  - first:
+      213: -3349636314166574003
+    second: TODO_TILES_183
+  - first:
+      213: 6607477998547552849
+    second: TODO_TILES_184
+  - first:
+      213: 4250686423367620339
+    second: TODO_TILES_185
+  - first:
+      213: -1523667152401158216
+    second: TODO_TILES_186
+  - first:
+      213: -4507513890227408886
+    second: TODO_TILES_187
+  - first:
+      213: 4300297305331947883
+    second: TODO_TILES_188
+  - first:
+      213: -6546986703613561152
+    second: TODO_TILES_189
+  - first:
+      213: -643815985241580079
+    second: TODO_TILES_190
+  - first:
+      213: -7693412031788444480
+    second: TODO_TILES_191
+  - first:
+      213: -4777600119317154430
+    second: TODO_TILES_192
+  - first:
+      213: 5544628582456922055
+    second: TODO_TILES_193
+  - first:
+      213: 5572549329891168735
+    second: TODO_TILES_194
+  - first:
+      213: -5493659187899619105
+    second: TODO_TILES_195
+  - first:
+      213: -2881699470063805811
+    second: TODO_TILES_196
+  - first:
+      213: 2237482908838608786
+    second: TODO_TILES_197
+  - first:
+      213: 8808805922074399464
+    second: TODO_TILES_198
+  - first:
+      213: 7183130113997464049
+    second: TODO_TILES_199
+  - first:
+      213: -5315752635162484077
+    second: TODO_TILES_200
+  - first:
+      213: 3194272570633747752
+    second: TODO_TILES_201
+  - first:
+      213: -6782092591290117126
+    second: TODO_TILES_202
+  - first:
+      213: 8773819083229906569
+    second: TODO_TILES_203
+  - first:
+      213: 8684879915492429829
+    second: TODO_TILES_204
+  - first:
+      213: -2435573033346180749
+    second: TODO_TILES_205
+  - first:
+      213: -5680914337707935742
+    second: TODO_TILES_206
+  - first:
+      213: -132817367495485843
+    second: TODO_TILES_207
+  - first:
+      213: 1032652080845621389
+    second: TODO_TILES_208
+  - first:
+      213: 2839682742790455769
+    second: TODO_TILES_209
+  - first:
+      213: -3802100275414666906
+    second: TODO_TILES_210
+  - first:
+      213: 4585537030988117483
+    second: TODO_TILES_211
+  - first:
+      213: -4002733855596575774
+    second: TODO_TILES_212
+  - first:
+      213: 8066281351635218231
+    second: TODO_TILES_213
+  - first:
+      213: 1701826685211919692
+    second: TODO_TILES_214
+  - first:
+      213: -4067746759148715767
+    second: TODO_TILES_215
+  - first:
+      213: 2394182858563872407
+    second: TODO_TILES_216
+  - first:
+      213: 281053485544903586
+    second: TODO_TILES_217
+  - first:
+      213: -3191693753817319193
+    second: TODO_TILES_218
+  - first:
+      213: -7940397088582637752
+    second: TODO_TILES_219
+  - first:
+      213: 1518371236204659813
+    second: TODO_TILES_220
+  - first:
+      213: -294867284968047273
+    second: TODO_TILES_221
+  - first:
+      213: 6592878039883254789
+    second: TODO_TILES_222
+  - first:
+      213: 8489475117662460048
+    second: TODO_TILES_223
+  - first:
+      213: 6429935636018356254
+    second: TODO_TILES_224
+  - first:
+      213: 875463277614572040
+    second: TODO_TILES_225
+  - first:
+      213: 670528340725375397
+    second: TODO_TILES_226
+  - first:
+      213: 7115633930758078237
+    second: TODO_TILES_227
+  - first:
+      213: 7845244858432678294
+    second: TODO_TILES_228
+  - first:
+      213: 9049246323178899823
+    second: TODO_TILES_229
+  - first:
+      213: -3152997583796749421
+    second: TODO_TILES_230
+  - first:
+      213: 4558742919041632310
+    second: TODO_TILES_231
+  - first:
+      213: -3579297161167189638
+    second: TODO_TILES_232
+  - first:
+      213: -7283656485182578039
+    second: TODO_TILES_233
+  - first:
+      213: -4387224551394894717
+    second: TODO_TILES_234
+  - first:
+      213: -116182751909906337
+    second: TODO_TILES_235
+  - first:
+      213: 5993603337196581972
+    second: TODO_TILES_236
+  - first:
+      213: 5277495916189276972
+    second: TODO_TILES_237
+  - first:
+      213: -1918970551789937019
+    second: TODO_TILES_238
+  - first:
+      213: -4099153845527097611
+    second: TODO_TILES_239
+  - first:
+      213: -4072641720603509695
+    second: TODO_TILES_240
+  - first:
+      213: -8916354665071448182
+    second: TODO_TILES_241
+  - first:
+      213: -6507408379936792284
+    second: TODO_TILES_242
+  - first:
+      213: -2780368545547799580
+    second: TODO_TILES_243
+  - first:
+      213: 8933862963834563019
+    second: TODO_TILES_244
+  - first:
+      213: -6466045426268703763
+    second: TODO_TILES_245
+  - first:
+      213: -4423332905279286690
+    second: TODO_TILES_246
+  - first:
+      213: -7778422920131357752
+    second: TODO_TILES_247
+  - first:
+      213: -8235218927963049971
+    second: TODO_TILES_248
+  - first:
+      213: 7732849592697492443
+    second: TODO_TILES_249
+  - first:
+      213: 2322442147935130051
+    second: TODO_TILES_250
+  - first:
+      213: -1429422478289412094
+    second: TODO_TILES_251
+  - first:
+      213: -3027195987454803647
+    second: TODO_TILES_252
+  - first:
+      213: -9059484266309108963
+    second: TODO_TILES_253
+  - first:
+      213: 7230477356263743633
+    second: TODO_TILES_254
+  - first:
+      213: -6789545953797195916
+    second: TODO_TILES_255
+  - first:
+      213: 3171873172872535894
+    second: TODO_TILES_256
+  - first:
+      213: -3585725247028726128
+    second: TODO_TILES_257
+  - first:
+      213: 8977242288313048564
+    second: TODO_TILES_258
+  - first:
+      213: -2179790039726375312
+    second: TODO_TILES_259
+  - first:
+      213: -911210427162091896
+    second: TODO_TILES_260
+  - first:
+      213: 775031617062221698
+    second: TODO_TILES_261
+  - first:
+      213: 1041658581366210872
+    second: TODO_TILES_262
+  - first:
+      213: 4325995206787263594
+    second: TODO_TILES_263
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TODO_TILES_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 378
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f894a8091ed356580800000000000000
+      internalID: -8834587055015442033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 378
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9887f6c3074a907c0800000000000000
+      internalID: -4104568783414265719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 378
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54c8e5de12976a80800000000000000
+      internalID: -8473643512738823073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_3
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 378
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5223c3358ce7d7c50800000000000000
+      internalID: 6664622422433215013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 378
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896a8472571482590800000000000000
+      internalID: -7698831591563811176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 378
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d141f399f977df50800000000000000
+      internalID: 6906122666431824342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_6
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 378
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5e5eb732088d040800000000000000
+      internalID: 4672625503287764463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 378
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992564790b8ffc950800000000000000
+      internalID: 6471664626890592921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 378
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002b298fde91d9560800000000000000
+      internalID: 7322037079042601472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_9
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 378
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7601e5b63ae3a660800000000000000
+      internalID: 7396012533773043324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_10
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 378
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7aab604f09d202e0800000000000000
+      internalID: -2160926211655882117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 378
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f9c207ada2dc6e0800000000000000
+      internalID: -1815747957087232245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 378
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8972ebe4f9cecf0800000000000000
+      internalID: -221627121101465376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_13
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f612778dba458e0800000000000000
+      internalID: -1705549412666609772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_14
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 378
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbc33ea62915e960800000000000000
+      internalID: 7630532797571255252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 361
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8626c4de27e3610800000000000000
+      internalID: 1602844880904808624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 361
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b494b3631bbad35d0800000000000000
+      internalID: -3081117792444135093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 361
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40767f15039c21700800000000000000
+      internalID: 509690917217068804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 361
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a3d9e1f7a543f80800000000000000
+      internalID: -8127771925475935615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_19
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 361
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29afc504621a49b0800000000000000
+      internalID: -5095239807612770003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 361
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7ae8b6e8d33bab0800000000000000
+      internalID: -4993579879924586541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_21
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 361
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d2431b8ee925cf0800000000000000
+      internalID: -264974705818849945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_22
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 361
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7d7809692ace0d0800000000000000
+      internalID: -3392157651763210259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 361
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dc0cbbd4510cb10800000000000000
+      internalID: 1999621658159140216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_24
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 361
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36b01a5b091a43b0800000000000000
+      internalID: -5527578056097483201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_25
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 361
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543bd5e347bc1a4e0800000000000000
+      internalID: -1972071461688593595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 361
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d7cc3400d703b10800000000000000
+      internalID: 1959203277997112651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_27
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 361
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1145c21e5287509f0800000000000000
+      internalID: -502863679295040495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_28
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 358
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1639fa20f10e04730800000000000000
+      internalID: 3981428494389187425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_29
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 361
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51875f08e73aae4e0800000000000000
+      internalID: -1951567724786911211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 344
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6073a4edf6a73ec0800000000000000
+      internalID: -3587214968784457621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_31
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 344
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a9db1489aa94140800000000000000
+      internalID: 4704478856679889451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_32
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 344
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527e71a1c6ede0100800000000000000
+      internalID: 76242799587485477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_33
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 344
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a3f84619e9a8c10800000000000000
+      internalID: 2056630527142607476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_34
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 344
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ef93ad3842569c0800000000000000
+      internalID: -3934698550717710824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 344
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11899abca75d70f50800000000000000
+      internalID: 6847676481819744273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_36
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 344
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d618435d1451ece10800000000000000
+      internalID: 2219735038834278765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_37
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 344
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7fdea8278a68d20800000000000000
+      internalID: 3280494588496574442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_38
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 344
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b5b6dd0a28b9450800000000000000
+      internalID: 6096610147997276989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_39
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 346
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ea9b82d5922ade0800000000000000
+      internalID: -1323449860401549751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_40
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 345
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c29f56900f68ad0800000000000000
+      internalID: -2700207003405833091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_41
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 348
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d485ab6db34db77c0800000000000000
+      internalID: -4072428084555786163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_42
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 344
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5d9d727f506c350800000000000000
+      internalID: 6036518909620377016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_43
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 344
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a5a6904e9959c90800000000000000
+      internalID: -7163650427573347695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_44
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599f4bc0696bc4290800000000000000
+      internalID: -7904742490367526507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_45
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac876f291a5a554b0800000000000000
+      internalID: -5452269660488173366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_46
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a829d8a0767a140800000000000000
+      internalID: 4730863228598520362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_47
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f97818ba2b4cf3b0800000000000000
+      internalID: -5477420399940044296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_48
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320e5844d4f0e80d0800000000000000
+      internalID: -3418778242591104989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed23f7cc09b69b820800000000000000
+      internalID: 2934494901858939614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_50
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 321
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a3098c866730c60800000000000000
+      internalID: 7783194773439920797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_51
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 321
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4551f1b84827b6750800000000000000
+      internalID: 6299254417403090260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_52
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 321
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a37aecdadc4d7490800000000000000
+      internalID: -7746951281114451038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_53
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 321
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad72d863e5075fc0800000000000000
+      internalID: -3506327310610301534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_54
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 323
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa997251e098f6ad0800000000000000
+      internalID: -2706794157448914513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_55
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 323
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99dc2d754ba384de0800000000000000
+      internalID: -1348763542155506279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_56
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8595ab47fbd9669f0800000000000000
+      internalID: -475519265018324648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_57
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f1716f5acb5ac80800000000000000
+      internalID: -8312030116258046090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_58
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee902e3fd906a4220800000000000000
+      internalID: 2470893577083947502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_59
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61283dab8c2fcdc00800000000000000
+      internalID: 926882567273284118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_60
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bbee3d5021b3750800000000000000
+      internalID: 6285637521165433677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_61
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b30cc1cdccb6710800000000000000
+      internalID: 1687667731127614253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_62
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b73d6fbd89e80d0800000000000000
+      internalID: -3418626996621313164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_63
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb308cb0ee00f960800000000000000
+      internalID: 7633617726790974446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_64
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755cad93a611d9620800000000000000
+      internalID: 2782399292719678807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_65
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd79b7434f84f71c0800000000000000
+      internalID: -4503800888657471521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f61e0eac2c7cab0800000000000000
+      internalID: -4987803885677482239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_67
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4d724114da78f70800000000000000
+      internalID: 9189504059695420591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_68
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0aa16fc3e370de50800000000000000
+      internalID: 6832088056995097102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_69
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 306
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1236832eaedf55460800000000000000
+      internalID: 7229963962072720161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_70
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 306
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7733a05997b07a5b0800000000000000
+      internalID: -5357300614914493577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_71
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47549baa9df0b7a0800000000000000
+      internalID: -6363307432729094322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_72
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23877aced873b5df0800000000000000
+      internalID: -190497476532799438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_73
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832a2385e6edd0800800000000000000
+      internalID: 580364492508144184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_74
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909d88408456d1ff0800000000000000
+      internalID: -63783459725190903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_75
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0206e252355cdb0800000000000000
+      internalID: -4772316810972225370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_76
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ece4e48f0f1cdc0800000000000000
+      internalID: -3620347676172824960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_77
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19471bccfb524fa0800000000000000
+      internalID: -5817986627312072419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_78
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d4b4ad6d9fa28f0800000000000000
+      internalID: -564364102100890315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_79
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068b91490d14f3330800000000000000
+      internalID: 3692742583560812640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_80
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6071614cdd1b4abd0800000000000000
+      internalID: -2619773517187115258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c80d96ed9285d5d0800000000000000
+      internalID: -3038378758901004087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_82
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b415a87fbb8e9d0800000000000000
+      internalID: -2744737301030417558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_83
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b036c3dce772ec6d0800000000000000
+      internalID: -2968391678827928821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_84
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 280
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733044061c073cb70800000000000000
+      internalID: 8918095662969783095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_85
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 289
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3835bce1c1ce81e70800000000000000
+      internalID: 9086271853739856771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_86
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 280
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258fbf9761831dec0800000000000000
+      internalID: -3543989762576877486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_87
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 289
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c205942868af400800000000000000
+      internalID: 358747014463237265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_88
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39819131cb9af0090800000000000000
+      internalID: -8066041782357911405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_89
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8931977c62652340800000000000000
+      internalID: 4838381592681462156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_90
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21b83ad9eec74f20800000000000000
+      internalID: 3406919146912919852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_91
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d840aefc35a4fe0800000000000000
+      internalID: -1204057797918683803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_92
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6718934ea762094e0800000000000000
+      internalID: -1977037927158808202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_93
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160cb77f5e6859b60800000000000000
+      internalID: 7752250655845892193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_94
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528b356c8c8385950800000000000000
+      internalID: 6437958102298114085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_95
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e51d91224f36610800000000000000
+      internalID: 1613401518827986450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_96
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171219de43f1a5460800000000000000
+      internalID: 7231126463881224561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_97
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f2c3062dbf359c0800000000000000
+      internalID: -3939528368042791084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4017f9a591577db00800000000000000
+      internalID: 853279406165029124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_99
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7569ae24c6b9573b0800000000000000
+      internalID: -5515331279363860905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_100
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 263
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248873702c5104010800000000000000
+      internalID: 1170959826205247554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_101
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 263
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9beabb879c30c78c0800000000000000
+      internalID: -4000318205162967367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_102
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 245
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4629861b5e34c23e0800000000000000
+      internalID: -2077210674321649052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_103
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 245
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44930290f36edb680800000000000000
+      internalID: -8737574543618459324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_104
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 245
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46275272a0f4129a0800000000000000
+      internalID: -6259635102043245980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_105
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 245
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e20cfce1bdb18e0800000000000000
+      internalID: -1721541507158102432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_106
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 245
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ea5ec6c181b5290800000000000000
+      internalID: -7900694610926260615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_107
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 245
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc0f4675ab0b9920800000000000000
+      internalID: 2998002782227598584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_108
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 245
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b77340c2998d5b80800000000000000
+      internalID: -8404410066219599945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_109
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 245
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c695646ac86da29b0800000000000000
+      internalID: -5104031328097642132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_110
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 245
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879af68ba06e9a410800000000000000
+      internalID: 1488974085541046648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_111
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 245
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7521a334325b6fe60800000000000000
+      internalID: 7995777351499256407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_112
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 246
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9282254be9c85af0800000000000000
+      internalID: -407353753962642788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_113
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 246
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54fdc191b4f57e00800000000000000
+      internalID: 1042007932298720351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_114
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 225
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09a361d278f7fe80800000000000000
+      internalID: -8144768229053322993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_115
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 225
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ab2b7a286dd5400800000000000000
+      internalID: 314643405633403539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_116
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 225
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b501d488de0b7f30800000000000000
+      internalID: 4574266169628886449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_117
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 225
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0374356f0e8dc1f10800000000000000
+      internalID: 2241905175240591152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_118
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456ab6b2e37e43cd0800000000000000
+      internalID: -2579182432373987756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_119
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0cdfd60abe71ceb0800000000000000
+      internalID: -4701337198553736182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_120
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36af3e58b2e2d1b70800000000000000
+      internalID: 8871297605454527075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_121
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7717fde11a1257420800000000000000
+      internalID: 2627042933531963767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_122
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5d09475514183b0800000000000000
+      internalID: -5512052633641101860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_123
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59534925f84a2d00800000000000000
+      internalID: 948650889311377758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_124
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0dac016edec1860800000000000000
+      internalID: 7502132651672391911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_125
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151698a8111d5caa0800000000000000
+      internalID: -6141272643580894895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_126
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb816a999c5e111f0800000000000000
+      internalID: -1075826181935851330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_127
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 208
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd19d81315c5d54e0800000000000000
+      internalID: -1991333956434423332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_128
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 208
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2645f32cff591ddc0800000000000000
+      internalID: -3615944100093668254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_129
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 208
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718f0f30ed20a6000800000000000000
+      internalID: 29839500103448599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_130
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 208
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e13eadbe58903f0800000000000000
+      internalID: -934068199666540999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_131
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eec06adbf06cb690800000000000000
+      internalID: -7585081037581922590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_132
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1dc118450ec34d0800000000000000
+      internalID: -3153398985518165522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_133
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337a8c124adf49c80800000000000000
+      internalID: -8316743730463201485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_134
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a05e5bab0090f990800000000000000
+      internalID: -7354219811701895008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_135
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa0755b45fac93b0800000000000000
+      internalID: -5504331866199094614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_136
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6f1055b43cc25f0800000000000000
+      internalID: -780033907125782855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_137
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00a80c286c320200800000000000000
+      internalID: 144744556142305293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_138
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a8729800ee9cf90800000000000000
+      internalID: -6932748465291687288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_139
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 206
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2844057f215254850800000000000000
+      internalID: 6360530812119565442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_140
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 191
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f128c90d8488bd0800000000000000
+      internalID: -2627770321754513526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_141
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd61fd339f9adcc30800000000000000
+      internalID: 4381344900283569885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_142
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 191
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277fccf5e96c5c8f0800000000000000
+      internalID: -520791798377023630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_143
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 191
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf4bc6cd68134760800000000000000
+      internalID: 7440817869111906240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_144
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda1fb1002b787a80800000000000000
+      internalID: -8468883721871746337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_145
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56704dc5781ed86c0800000000000000
+      internalID: -4139404510989383835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_146
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14aa2ecf447502c30800000000000000
+      internalID: 4332558795342522945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_147
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 181
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb878845674a3330800000000000000
+      internalID: 3691341344917654469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_148
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caccdb918298ffbf0800000000000000
+      internalID: -288361045804856148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_149
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba9fe92f3fa945b0800000000000000
+      internalID: -5383579193723348298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_150
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dddfb9d603bae540800000000000000
+      internalID: 5038035975171726801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_151
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba3341abdd9a57a0800000000000000
+      internalID: -6387619554842690892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_152
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b8957f01f5019c0800000000000000
+      internalID: -3958559545984709864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_153
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 173
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9f12212b77e9650800000000000000
+      internalID: 6241557740274186718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_154
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 173
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d28ed1f3fbe54d40800000000000000
+      internalID: 5568115947280958167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_155
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 173
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2741c430e967eba0800000000000000
+      internalID: -6059758361925040342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_156
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678281e0b469288f0800000000000000
+      internalID: -539703756227860362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_157
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 170
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c364c08cdfd141e60800000000000000
+      internalID: 7931997819526465084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_158
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 171
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b247956211982c720800000000000000
+      internalID: 2865003019711902763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_159
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b466b59c189f25f0800000000000000
+      internalID: -779236961973541703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_160
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 169
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552eb3c7061b39390800000000000000
+      internalID: -7812705900598402475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_161
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 170
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9b1b3e530537a00800000000000000
+      internalID: 753033755084569079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_162
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 170
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b167a6dc87ab59c0800000000000000
+      internalID: -3937369225866813007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_163
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 166
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca333801b7080690800000000000000
+      internalID: -7635844711278495028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_164
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 166
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66321322eeab229b0800000000000000
+      internalID: -5106313495546092698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_165
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 166
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cd1e79fee100ad0800000000000000
+      internalID: -2738154559047082854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_166
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 156
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02e39ca54030d320800000000000000
+      internalID: 2580615662289543694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_167
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888fa49e281830a50800000000000000
+      internalID: 6486170287603382408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_168
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 156
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fc3cd174ec46dc0800000000000000
+      internalID: -3646562993425887428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_169
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 150
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be25c8c471b041190800000000000000
+      internalID: -7992751243979369749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_170
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 150
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587fbdfc759422660800000000000000
+      internalID: 7359525382575093637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_171
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 156
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f93f6a980ed34ac0800000000000000
+      internalID: -3872007126076409357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_172
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 143
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce57cd006ebbb5f0800000000000000
+      internalID: -739788394015007029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_173
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 146
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ef73ef983d3b620800000000000000
+      internalID: 2788805183901531685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_174
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 153
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7e259df14619ff0800000000000000
+      internalID: -31133634462029850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_175
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 153
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2015a8b53cb7057f0800000000000000
+      internalID: -625864269219868414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_176
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 153
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2b0a8dc4f618ba0800000000000000
+      internalID: -6088462845385592112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_177
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 149
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfc9c214568a1c10800000000000000
+      internalID: 2025078678107049920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_178
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 149
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd30584259d44fe70800000000000000
+      internalID: 9148022046054482907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_179
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 149
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6742b93cd6beb30800000000000000
+      internalID: 4317665354653660873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_180
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 142
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d3243b26fb8f520800000000000000
+      internalID: 2736147204262739341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_181
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 140
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26c179b43b1eaea0800000000000000
+      internalID: -5859716151898946003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_182
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 143
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16d1a868f82161f0800000000000000
+      internalID: -1053515790455548385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_183
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 131
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d444a57f483b381d0800000000000000
+      internalID: -3349636314166574003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_184
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 131
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ac2a45b3a72bb50800000000000000
+      internalID: 6607477998547552849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_185
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 139
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6176ce7c87dfa30800000000000000
+      internalID: 4250686423367620339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_186
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 139
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfa2313cc8dadae0800000000000000
+      internalID: -1523667152401158216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_187
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 139
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a003bd8aff71271c0800000000000000
+      internalID: -4507513890227408886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_188
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 139
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6951e08d99bdab30800000000000000
+      internalID: 4300297305331947883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_189
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 136
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c678edc74e6425a0800000000000000
+      internalID: -6546986703613561152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_190
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 136
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd15f2c5c4b017f0800000000000000
+      internalID: -643815985241580079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_191
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4988eb4828b3590800000000000000
+      internalID: -7693412031788444480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_192
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285bc39110e82bdb0800000000000000
+      internalID: -4777600119317154430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_193
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf82dca15a72fc40800000000000000
+      internalID: 5544628582456922055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_194
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd11185471ca55d40800000000000000
+      internalID: 5572549329891168735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_195
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8ae24431a92c3b0800000000000000
+      internalID: -5493659187899619105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_196
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a5a6199952208d0800000000000000
+      internalID: -2881699470063805811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_197
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f3554d9d22d0f10800000000000000
+      internalID: 2237482908838608786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_198
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e21a98a05a2f3a70800000000000000
+      internalID: 8808805922074399464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_199
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1ea34e7ca9fa360800000000000000
+      internalID: 7183130113997464049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_200
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3922b437427aa36b0800000000000000
+      internalID: -5315752635162484077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_201
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82df560aaf5545c20800000000000000
+      internalID: 3194272570633747752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_202
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af31856a8ba21e1a0800000000000000
+      internalID: -6782092591290117126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_203
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986467378fdd2c970800000000000000
+      internalID: 8773819083229906569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_204
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500d9d7c444e68870800000000000000
+      internalID: 8684879915492429829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_205
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37951eafa3b133ed0800000000000000
+      internalID: -2435573033346180749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_206
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 110
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208be7532865921b0800000000000000
+      internalID: -5680914337707935742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_207
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 77
+        width: 18
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66dd66de43282ef0800000000000000
+      internalID: -132817367495485843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_208
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 110
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d880f57a897b45e00800000000000000
+      internalID: 1032652080845621389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_209
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 50
+        width: 4
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d105d6c864986720800000000000000
+      internalID: 2839682742790455769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_210
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6617e73a1f93c3bc0800000000000000
+      internalID: -3802100275414666906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_211
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5327c62a913af30800000000000000
+      internalID: 4585537030988117483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_212
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e38cb604ce6378c0800000000000000
+      internalID: -4002733855596575774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_213
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f239ef62031ff60800000000000000
+      internalID: 8066281351635218231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_214
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4546518a5a1e9710800000000000000
+      internalID: 1701826685211919692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_215
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901c1b8dfd57c87c0800000000000000
+      internalID: -4067746759148715767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_216
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796670cff98d93120800000000000000
+      internalID: 2394182858563872407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_217
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a31ac0f7a086e300800000000000000
+      internalID: 281053485544903586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_218
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8b2e3f073d4b3d0800000000000000
+      internalID: -3191693753817319193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_219
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8476c7ffaea0ec190800000000000000
+      internalID: -7940397088582637752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_220
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564462b3896521510800000000000000
+      internalID: 1518371236204659813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_221
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d789f34cb68ebf0800000000000000
+      internalID: -294867284968047273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_222
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 93
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c07be85ab9e7b50800000000000000
+      internalID: 6592878039883254789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_223
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 93
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098d9cde3aca0d570800000000000000
+      internalID: 8489475117662460048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_224
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10ef79c468bb3950800000000000000
+      internalID: 6429935636018356254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_225
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802ad1c6635462c00800000000000000
+      internalID: 875463277614572040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_226
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1a4c829f13e4900800000000000000
+      internalID: 670528340725375397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_227
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f3d8a1c5fcfb260800000000000000
+      internalID: 7115633930758078237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_228
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699e6d202a8efdc60800000000000000
+      internalID: 7845244858432678294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_229
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6986120691659d70800000000000000
+      internalID: 9049246323178899823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_230
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b3120276d4e34d0800000000000000
+      internalID: -3152997583796749421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_231
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638cdc71888e34f30800000000000000
+      internalID: 4558742919041632310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_232
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79c0132238c35ec0800000000000000
+      internalID: -3579297161167189638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_233
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982e8b664014bea90800000000000000
+      internalID: -7283656485182578039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_234
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c1c38d3827d13c0800000000000000
+      internalID: -4387224551394894717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_235
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58f167176c336ef0800000000000000
+      internalID: -116182751909906337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_236
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454b23eca7e8d2350800000000000000
+      internalID: 5993603337196581972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_237
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b590c039e6d3940800000000000000
+      internalID: 5277495916189276972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_238
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 60
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e102643727e55e0800000000000000
+      internalID: -1918970551789937019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_239
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 60
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe4ea5bb41ec17c0800000000000000
+      internalID: -4099153845527097611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_240
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 60
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cfdf1dee11b77c0800000000000000
+      internalID: -4072641720603509695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_241
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 55
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fe4094caeb24480800000000000000
+      internalID: -8916354665071448182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_242
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 55
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421a7716e8a01b5a0800000000000000
+      internalID: -6507408379936792284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_243
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 54
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e334f1f9852a69d0800000000000000
+      internalID: -2780368545547799580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_244
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 54
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9a06f28057bfb70800000000000000
+      internalID: 8933862963834563019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_245
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 28
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3f6b181fdf346a0800000000000000
+      internalID: -6466045426268703763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_246
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 43
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e521881982a2d92c0800000000000000
+      internalID: -4423332905279286690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_247
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c350d4e09d7d0490800000000000000
+      internalID: -7778422920131357752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_248
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 43
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00703f5400a6bd80800000000000000
+      internalID: -8235218927963049971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_249
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd31242fbb9905b60800000000000000
+      internalID: 7732849592697492443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_250
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1911724d8fa3020800000000000000
+      internalID: 2322442147935130051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_251
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200e99354dba92ce0800000000000000
+      internalID: -1429422478289412094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_252
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141c446c94d3df5d0800000000000000
+      internalID: -3027195987454803647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_253
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 33
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bb76a1f0f364280800000000000000
+      internalID: -9059484266309108963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_254
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 32
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1902b98c8d0d75460800000000000000
+      internalID: 7230477356263743633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_255
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 8
+        width: 7
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4773ab57defa6c1a0800000000000000
+      internalID: -6789545953797195916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_256
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f98ad68d1c40c20800000000000000
+      internalID: 3171873172872535894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_257
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 40
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096f3b4c2e1fc3ec0800000000000000
+      internalID: -3585725247028726128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_258
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 39
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd93893c42959c70800000000000000
+      internalID: 8977242288313048564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_259
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 39
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ebc250284dfb1e0800000000000000
+      internalID: -2179790039726375312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_260
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e1f5db1faba53f0800000000000000
+      internalID: -911210427162091896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_261
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 30
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287b0b0462771ca00800000000000000
+      internalID: 775031617062221698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_262
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 35
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8310297f5f6b47e00800000000000000
+      internalID: 1041658581366210872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODO_TILES_263
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 31
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ce89078b5090c30800000000000000
+      internalID: 4325995206787263594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1a152079372698c40bc295eb093f85a9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":24.0,"y":24.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      TODO_TILES_0: -8834587055015442033
+      TODO_TILES_1: -4104568783414265719
+      TODO_TILES_10: -2160926211655882117
+      TODO_TILES_100: 1170959826205247554
+      TODO_TILES_101: -4000318205162967367
+      TODO_TILES_102: -2077210674321649052
+      TODO_TILES_103: -8737574543618459324
+      TODO_TILES_104: -6259635102043245980
+      TODO_TILES_105: -1721541507158102432
+      TODO_TILES_106: -7900694610926260615
+      TODO_TILES_107: 2998002782227598584
+      TODO_TILES_108: -8404410066219599945
+      TODO_TILES_109: -5104031328097642132
+      TODO_TILES_11: -1815747957087232245
+      TODO_TILES_110: 1488974085541046648
+      TODO_TILES_111: 7995777351499256407
+      TODO_TILES_112: -407353753962642788
+      TODO_TILES_113: 1042007932298720351
+      TODO_TILES_114: -8144768229053322993
+      TODO_TILES_115: 314643405633403539
+      TODO_TILES_116: 4574266169628886449
+      TODO_TILES_117: 2241905175240591152
+      TODO_TILES_118: -2579182432373987756
+      TODO_TILES_119: -4701337198553736182
+      TODO_TILES_12: -221627121101465376
+      TODO_TILES_120: 8871297605454527075
+      TODO_TILES_121: 2627042933531963767
+      TODO_TILES_122: -5512052633641101860
+      TODO_TILES_123: 948650889311377758
+      TODO_TILES_124: 7502132651672391911
+      TODO_TILES_125: -6141272643580894895
+      TODO_TILES_126: -1075826181935851330
+      TODO_TILES_127: -1991333956434423332
+      TODO_TILES_128: -3615944100093668254
+      TODO_TILES_129: 29839500103448599
+      TODO_TILES_13: -1705549412666609772
+      TODO_TILES_130: -934068199666540999
+      TODO_TILES_131: -7585081037581922590
+      TODO_TILES_132: -3153398985518165522
+      TODO_TILES_133: -8316743730463201485
+      TODO_TILES_134: -7354219811701895008
+      TODO_TILES_135: -5504331866199094614
+      TODO_TILES_136: -780033907125782855
+      TODO_TILES_137: 144744556142305293
+      TODO_TILES_138: -6932748465291687288
+      TODO_TILES_139: 6360530812119565442
+      TODO_TILES_14: 7630532797571255252
+      TODO_TILES_140: -2627770321754513526
+      TODO_TILES_141: 4381344900283569885
+      TODO_TILES_142: -520791798377023630
+      TODO_TILES_143: 7440817869111906240
+      TODO_TILES_144: -8468883721871746337
+      TODO_TILES_145: -4139404510989383835
+      TODO_TILES_146: 4332558795342522945
+      TODO_TILES_147: 3691341344917654469
+      TODO_TILES_148: -288361045804856148
+      TODO_TILES_149: -5383579193723348298
+      TODO_TILES_15: 1602844880904808624
+      TODO_TILES_150: 5038035975171726801
+      TODO_TILES_151: -6387619554842690892
+      TODO_TILES_152: -3958559545984709864
+      TODO_TILES_153: 6241557740274186718
+      TODO_TILES_154: 5568115947280958167
+      TODO_TILES_155: -6059758361925040342
+      TODO_TILES_156: -539703756227860362
+      TODO_TILES_157: 7931997819526465084
+      TODO_TILES_158: 2865003019711902763
+      TODO_TILES_159: -779236961973541703
+      TODO_TILES_16: -3081117792444135093
+      TODO_TILES_160: -7812705900598402475
+      TODO_TILES_161: 753033755084569079
+      TODO_TILES_162: -3937369225866813007
+      TODO_TILES_163: -7635844711278495028
+      TODO_TILES_164: -5106313495546092698
+      TODO_TILES_165: -2738154559047082854
+      TODO_TILES_166: 2580615662289543694
+      TODO_TILES_167: 6486170287603382408
+      TODO_TILES_168: -3646562993425887428
+      TODO_TILES_169: -7992751243979369749
+      TODO_TILES_17: 509690917217068804
+      TODO_TILES_170: 7359525382575093637
+      TODO_TILES_171: -3872007126076409357
+      TODO_TILES_172: -739788394015007029
+      TODO_TILES_173: 2788805183901531685
+      TODO_TILES_174: -31133634462029850
+      TODO_TILES_175: -625864269219868414
+      TODO_TILES_176: -6088462845385592112
+      TODO_TILES_177: 2025078678107049920
+      TODO_TILES_178: 9148022046054482907
+      TODO_TILES_179: 4317665354653660873
+      TODO_TILES_18: -8127771925475935615
+      TODO_TILES_180: 2736147204262739341
+      TODO_TILES_181: -5859716151898946003
+      TODO_TILES_182: -1053515790455548385
+      TODO_TILES_183: -3349636314166574003
+      TODO_TILES_184: 6607477998547552849
+      TODO_TILES_185: 4250686423367620339
+      TODO_TILES_186: -1523667152401158216
+      TODO_TILES_187: -4507513890227408886
+      TODO_TILES_188: 4300297305331947883
+      TODO_TILES_189: -6546986703613561152
+      TODO_TILES_19: -5095239807612770003
+      TODO_TILES_190: -643815985241580079
+      TODO_TILES_191: -7693412031788444480
+      TODO_TILES_192: -4777600119317154430
+      TODO_TILES_193: 5544628582456922055
+      TODO_TILES_194: 5572549329891168735
+      TODO_TILES_195: -5493659187899619105
+      TODO_TILES_196: -2881699470063805811
+      TODO_TILES_197: 2237482908838608786
+      TODO_TILES_198: 8808805922074399464
+      TODO_TILES_199: 7183130113997464049
+      TODO_TILES_2: -8473643512738823073
+      TODO_TILES_20: -4993579879924586541
+      TODO_TILES_200: -5315752635162484077
+      TODO_TILES_201: 3194272570633747752
+      TODO_TILES_202: -6782092591290117126
+      TODO_TILES_203: 8773819083229906569
+      TODO_TILES_204: 8684879915492429829
+      TODO_TILES_205: -2435573033346180749
+      TODO_TILES_206: -5680914337707935742
+      TODO_TILES_207: -132817367495485843
+      TODO_TILES_208: 1032652080845621389
+      TODO_TILES_209: 2839682742790455769
+      TODO_TILES_21: -264974705818849945
+      TODO_TILES_210: -3802100275414666906
+      TODO_TILES_211: 4585537030988117483
+      TODO_TILES_212: -4002733855596575774
+      TODO_TILES_213: 8066281351635218231
+      TODO_TILES_214: 1701826685211919692
+      TODO_TILES_215: -4067746759148715767
+      TODO_TILES_216: 2394182858563872407
+      TODO_TILES_217: 281053485544903586
+      TODO_TILES_218: -3191693753817319193
+      TODO_TILES_219: -7940397088582637752
+      TODO_TILES_22: -3392157651763210259
+      TODO_TILES_220: 1518371236204659813
+      TODO_TILES_221: -294867284968047273
+      TODO_TILES_222: 6592878039883254789
+      TODO_TILES_223: 8489475117662460048
+      TODO_TILES_224: 6429935636018356254
+      TODO_TILES_225: 875463277614572040
+      TODO_TILES_226: 670528340725375397
+      TODO_TILES_227: 7115633930758078237
+      TODO_TILES_228: 7845244858432678294
+      TODO_TILES_229: 9049246323178899823
+      TODO_TILES_23: 1999621658159140216
+      TODO_TILES_230: -3152997583796749421
+      TODO_TILES_231: 4558742919041632310
+      TODO_TILES_232: -3579297161167189638
+      TODO_TILES_233: -7283656485182578039
+      TODO_TILES_234: -4387224551394894717
+      TODO_TILES_235: -116182751909906337
+      TODO_TILES_236: 5993603337196581972
+      TODO_TILES_237: 5277495916189276972
+      TODO_TILES_238: -1918970551789937019
+      TODO_TILES_239: -4099153845527097611
+      TODO_TILES_24: -5527578056097483201
+      TODO_TILES_240: -4072641720603509695
+      TODO_TILES_241: -8916354665071448182
+      TODO_TILES_242: -6507408379936792284
+      TODO_TILES_243: -2780368545547799580
+      TODO_TILES_244: 8933862963834563019
+      TODO_TILES_245: -6466045426268703763
+      TODO_TILES_246: -4423332905279286690
+      TODO_TILES_247: -7778422920131357752
+      TODO_TILES_248: -8235218927963049971
+      TODO_TILES_249: 7732849592697492443
+      TODO_TILES_25: -1972071461688593595
+      TODO_TILES_250: 2322442147935130051
+      TODO_TILES_251: -1429422478289412094
+      TODO_TILES_252: -3027195987454803647
+      TODO_TILES_253: -9059484266309108963
+      TODO_TILES_254: 7230477356263743633
+      TODO_TILES_255: -6789545953797195916
+      TODO_TILES_256: 3171873172872535894
+      TODO_TILES_257: -3585725247028726128
+      TODO_TILES_258: 8977242288313048564
+      TODO_TILES_259: -2179790039726375312
+      TODO_TILES_26: 1959203277997112651
+      TODO_TILES_260: -911210427162091896
+      TODO_TILES_261: 775031617062221698
+      TODO_TILES_262: 1041658581366210872
+      TODO_TILES_263: 4325995206787263594
+      TODO_TILES_27: -502863679295040495
+      TODO_TILES_28: 3981428494389187425
+      TODO_TILES_29: -1951567724786911211
+      TODO_TILES_3: 6664622422433215013
+      TODO_TILES_30: -3587214968784457621
+      TODO_TILES_31: 4704478856679889451
+      TODO_TILES_32: 76242799587485477
+      TODO_TILES_33: 2056630527142607476
+      TODO_TILES_34: -3934698550717710824
+      TODO_TILES_35: 6847676481819744273
+      TODO_TILES_36: 2219735038834278765
+      TODO_TILES_37: 3280494588496574442
+      TODO_TILES_38: 6096610147997276989
+      TODO_TILES_39: -1323449860401549751
+      TODO_TILES_4: -7698831591563811176
+      TODO_TILES_40: -2700207003405833091
+      TODO_TILES_41: -4072428084555786163
+      TODO_TILES_42: 6036518909620377016
+      TODO_TILES_43: -7163650427573347695
+      TODO_TILES_44: -7904742490367526507
+      TODO_TILES_45: -5452269660488173366
+      TODO_TILES_46: 4730863228598520362
+      TODO_TILES_47: -5477420399940044296
+      TODO_TILES_48: -3418778242591104989
+      TODO_TILES_49: 2934494901858939614
+      TODO_TILES_5: 6906122666431824342
+      TODO_TILES_50: 7783194773439920797
+      TODO_TILES_51: 6299254417403090260
+      TODO_TILES_52: -7746951281114451038
+      TODO_TILES_53: -3506327310610301534
+      TODO_TILES_54: -2706794157448914513
+      TODO_TILES_55: -1348763542155506279
+      TODO_TILES_56: -475519265018324648
+      TODO_TILES_57: -8312030116258046090
+      TODO_TILES_58: 2470893577083947502
+      TODO_TILES_59: 926882567273284118
+      TODO_TILES_6: 4672625503287764463
+      TODO_TILES_60: 6285637521165433677
+      TODO_TILES_61: 1687667731127614253
+      TODO_TILES_62: -3418626996621313164
+      TODO_TILES_63: 7633617726790974446
+      TODO_TILES_64: 2782399292719678807
+      TODO_TILES_65: -4503800888657471521
+      TODO_TILES_66: -4987803885677482239
+      TODO_TILES_67: 9189504059695420591
+      TODO_TILES_68: 6832088056995097102
+      TODO_TILES_69: 7229963962072720161
+      TODO_TILES_7: 6471664626890592921
+      TODO_TILES_70: -5357300614914493577
+      TODO_TILES_71: -6363307432729094322
+      TODO_TILES_72: -190497476532799438
+      TODO_TILES_73: 580364492508144184
+      TODO_TILES_74: -63783459725190903
+      TODO_TILES_75: -4772316810972225370
+      TODO_TILES_76: -3620347676172824960
+      TODO_TILES_77: -5817986627312072419
+      TODO_TILES_78: -564364102100890315
+      TODO_TILES_79: 3692742583560812640
+      TODO_TILES_8: 7322037079042601472
+      TODO_TILES_80: -2619773517187115258
+      TODO_TILES_81: -3038378758901004087
+      TODO_TILES_82: -2744737301030417558
+      TODO_TILES_83: -2968391678827928821
+      TODO_TILES_84: 8918095662969783095
+      TODO_TILES_85: 9086271853739856771
+      TODO_TILES_86: -3543989762576877486
+      TODO_TILES_87: 358747014463237265
+      TODO_TILES_88: -8066041782357911405
+      TODO_TILES_89: 4838381592681462156
+      TODO_TILES_9: 7396012533773043324
+      TODO_TILES_90: 3406919146912919852
+      TODO_TILES_91: -1204057797918683803
+      TODO_TILES_92: -1977037927158808202
+      TODO_TILES_93: 7752250655845892193
+      TODO_TILES_94: 6437958102298114085
+      TODO_TILES_95: 1613401518827986450
+      TODO_TILES_96: 7231126463881224561
+      TODO_TILES_97: -3939528368042791084
+      TODO_TILES_98: 853279406165029124
+      TODO_TILES_99: -5515331279363860905
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
