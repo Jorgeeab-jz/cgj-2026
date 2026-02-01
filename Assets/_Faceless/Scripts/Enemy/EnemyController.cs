@@ -9,6 +9,23 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private Rigidbody2D _rb;
 
     private float _stunTimer;
+    private Vector2 _homePosition;
+    private bool _isAggro = true;
+
+    private void Start()
+    {
+        _homePosition = transform.position;
+    }
+
+    public void SetHomePosition(Vector2 position)
+    {
+        _homePosition = position;
+    }
+
+    public void SetAggro(bool aggro)
+    {
+        _isAggro = aggro;
+    }
 
     private void FixedUpdate()
     {
@@ -18,7 +35,25 @@ public class EnemyController : MonoBehaviour
             return;
         }
 
-        MoveTowardsPlayer();
+        if (_isAggro)
+        {
+            MoveTowardsPlayer();
+        }
+        else
+        {
+            MoveTowardsHome();
+        }
+    }
+
+    private void MoveTowardsHome()
+    {
+        if (Vector2.Distance(_rb.position, _homePosition) > 0.1f)
+        {
+            Vector2 direction = (_homePosition - _rb.position).normalized;
+            Vector2 targetPosition = _rb.position + direction * _moveSpeed * Time.fixedDeltaTime;
+            _rb.MovePosition(targetPosition);
+            UpdateFacingDirection(direction);
+        }
     }
 
     private void MoveTowardsPlayer()
@@ -32,6 +67,19 @@ public class EnemyController : MonoBehaviour
             Vector2 direction = (playerTransform.position - transform.position).normalized;
             Vector2 targetPosition = _rb.position + direction * _moveSpeed * Time.fixedDeltaTime;
             _rb.MovePosition(targetPosition);
+            UpdateFacingDirection(direction);
+        }
+    }
+
+    private void UpdateFacingDirection(Vector2 direction)
+    {
+        if (direction.x > 0)
+        {
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        }
+        else if (direction.x < 0)
+        {
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
     }
 

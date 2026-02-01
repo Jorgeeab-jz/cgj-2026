@@ -14,13 +14,20 @@ public class MusicManager : MonoBehaviour
     [SerializeField] private float _maxVolume = 1f;
 
     private Dictionary<AbilityType, AudioSource> _audioSources = new Dictionary<AbilityType, AudioSource>();
+    private AudioSource _zoneAudioSource;
+    private AbilityType _currentAbilityType;
+    private bool _isZoneActive;
 
     private void Start()
     {
         InitializeAudioSources();
+        CreateZoneAudioSource();
+
         if (_managerLinker != null)
         {
             _managerLinker.OnAbilityEquippedMusicRequest += HandleMusicChange;
+            _managerLinker.OnZoneEnterMusicRequest += HandleZoneEnter;
+            _managerLinker.OnZoneExitMusicRequest += HandleZoneExit;
         }
     }
 
@@ -29,6 +36,8 @@ public class MusicManager : MonoBehaviour
         if (_managerLinker != null)
         {
             _managerLinker.OnAbilityEquippedMusicRequest -= HandleMusicChange;
+            _managerLinker.OnZoneEnterMusicRequest -= HandleZoneEnter;
+            _managerLinker.OnZoneExitMusicRequest -= HandleZoneExit;
         }
     }
 
@@ -54,8 +63,23 @@ public class MusicManager : MonoBehaviour
         }
     }
 
+    private void CreateZoneAudioSource()
+    {
+        GameObject sourceObj = new GameObject("MusicSource_Zone");
+        sourceObj.transform.SetParent(transform);
+        
+        _zoneAudioSource = sourceObj.AddComponent<AudioSource>();
+        _zoneAudioSource.loop = true;
+        _zoneAudioSource.volume = 0f;
+        _zoneAudioSource.playOnAwake = false;
+    }
+
     private void HandleMusicChange(AbilityType type)
     {
+        _currentAbilityType = type;
+
+        if (_isZoneActive) return;
+
         // Fade out all sources except the target one
         foreach (var kvp in _audioSources)
         {
@@ -71,5 +95,29 @@ public class MusicManager : MonoBehaviour
                 source.DOFade(0f, _crossFadeDuration);
             }
         }
+    }
+
+    private void HandleZoneEnter(AudioClip clip)
+    {
+        _isZoneActive = true;
+
+        foreach (var source in _audioSources.Values)
+        {
+            source.DOFade(0f, _crossFadeDuration);
+        }
+
+        if (clip != null)
+        {
+            _zoneAudioSource.clip = clip;
+            _zoneAudioSource.Play();
+            _zoneAudioSource.DOFade(_maxVolume, _crossFadeDuration);
+        }
+    }
+
+    private void HandleZoneExit()
+    {
+        _isZoneActive = false;
+        _zoneAudioSource.DOFade(0f, _crossFadeDuration);
+        HandleMusicChange(_currentAbilityType);
     }
 }
