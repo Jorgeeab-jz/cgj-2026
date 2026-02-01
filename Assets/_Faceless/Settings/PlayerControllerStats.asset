@@ -20,7 +20,7 @@ MonoBehaviour:
   WalkSpeed: 3
   WalkAcceleration: 150
   WalkDeceleration: 150
-  RunSpeed: 5
+  RunSpeed: 9
   RunAcceleration: 150
   RunDeceleration: 150
   MaxJumpHeight: 3

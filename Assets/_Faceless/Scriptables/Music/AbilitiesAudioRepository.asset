@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioRepositorySO
   _abilityMusicTracks:
   - Type: 3
-    Clip: {fileID: 8300000, guid: 85e40bcfbd71cec4f9d4ff34f3cd6c80, type: 3}
+    Clip: {fileID: 8300000, guid: 9f82b0823df50c241b62617a83da8cb6, type: 3}
   - Type: 2
-    Clip: {fileID: 8300000, guid: d0575273e15618f4aa0bfe82caf22142, type: 3}
+    Clip: {fileID: 8300000, guid: 5c08b67614af72846a772018420bd360, type: 3}
   - Type: 4
-    Clip: {fileID: 8300000, guid: f469c6da58206ff4aac86a8aa73b2e83, type: 3}
+    Clip: {fileID: 8300000, guid: d28975c7edd0ce146b84e8495a260ceb, type: 3}
