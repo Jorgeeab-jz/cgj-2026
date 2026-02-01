@@ -7,12 +7,22 @@ public class EnemyZone : MonoBehaviour
     [SerializeField] private AudioClip _zoneMusic;
     [SerializeField] private ManagerLinkerSO _managerLinker;
 
+    [SerializeField] private Transform _playerZoneSpawnPoint;
+
     private EnemyController _currentEnemy;
+    private Vector3 _originalPlayerSpawnPoint;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
+            var playerUtilities = other.GetComponent<PlayerUtilities>();
+            if (playerUtilities != null && _playerZoneSpawnPoint != null)
+            {
+                _originalPlayerSpawnPoint = playerUtilities.GetRespawnPoint();
+                playerUtilities.SetRespawnPoint(_playerZoneSpawnPoint.position);
+            }
+
             if (_currentEnemy == null)
             {
                 if (_enemyPrefab != null && _spawnPoint != null)
@@ -38,6 +48,12 @@ public class EnemyZone : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            var playerUtilities = other.GetComponent<PlayerUtilities>();
+            if (playerUtilities != null)
+            {
+                playerUtilities.SetRespawnPoint(_originalPlayerSpawnPoint);
+            }
+
             if (_currentEnemy != null)
             {
                 _currentEnemy.SetAggro(false);

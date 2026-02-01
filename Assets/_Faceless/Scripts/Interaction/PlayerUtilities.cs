@@ -45,6 +45,11 @@ public class PlayerUtilities : MonoBehaviour
         _respawnPoint = spawnPoint;
     }
 
+    public Vector3 GetRespawnPoint()
+    {
+        return _respawnPoint;
+    }
+
     public void OnPlayerDeath()
     {
         transform.position = _respawnPoint;
