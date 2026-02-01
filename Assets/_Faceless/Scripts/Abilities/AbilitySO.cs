@@ -39,4 +39,10 @@ public abstract class AbilitySO : ScriptableObject
     /// Called when the ability is switched out or removed.
     /// </summary>
     public virtual void OnUnequip() { }
+
+    #region Utility Methods
+
+
+
+    #endregion
 }

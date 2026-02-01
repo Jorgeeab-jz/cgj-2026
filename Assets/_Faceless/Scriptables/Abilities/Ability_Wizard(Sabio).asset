@@ -20,4 +20,6 @@ MonoBehaviour:
   FireOrbPrefab: {fileID: 6699580696638159749, guid: 47e5c5362d863e244b3cf6bbc3e685fa, type: 3}
   IceOrbPrefab: {fileID: 3780635186595388514, guid: 5fe0e8447c4ec72429d0d39845f9ec40, type: 3}
   OrbSpeed: 10
-  FireRate: 0.5
+  FireRate: 0.6
+  CastDelay: 0.5
+  RecoveryTime: 0.6

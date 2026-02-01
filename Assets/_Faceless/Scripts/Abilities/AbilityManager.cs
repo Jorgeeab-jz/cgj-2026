@@ -7,6 +7,7 @@ public class AbilityManager : MonoBehaviour
     [SerializeField] private PlayerControllerStats _baseStats; // The original stats asset
     [SerializeField] private AbilityInputReader _inputReader;
     [SerializeField] private ManagerLinkerSO _managerLinker;
+    [SerializeField] private InputReader _movementInputReader;
 
     public event System.Action<AbilitySO> OnAbilityUnlocked;
     public event System.Action<AbilityType> OnAbilityEquipped;
@@ -95,6 +96,16 @@ public class AbilityManager : MonoBehaviour
         _managerLinker?.RaiseAbilityEquippedMusicRequest(type);
     }
 
+    public void EnablePlayerMovement(bool state) 
+    {
+        _movementInputReader.enabled = state;
+    }
+
+    public bool IsPlayerMoving()
+    {
+        return _movementInputReader.GetNormalizedHorizontalDirection().x != 0f;
+    }
+
     public void UnequipCurrentAbility()
     {
         EquipAbility(null);
@@ -110,5 +121,11 @@ public class AbilityManager : MonoBehaviour
         RuntimeStats.TimeTillJumpApex = BaseStats.TimeTillJumpApex;
         RuntimeStats.MaxJumpHeight = BaseStats.MaxJumpHeight;
         RuntimeStats.MaxNumberJumps = BaseStats.MaxNumberJumps;
+        RuntimeStats.RunSpeed = BaseStats.RunSpeed;
+    }
+
+    public void StopMovement() 
+    {
+        RuntimeStats.RunSpeed = 0f;
     }
 }
