@@ -130,6 +130,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Interactions",
+            "id": "f056a2b5-ed30-440a-99ad-ceb5b7864558",
+            "actions": [
+                {
+                    "name": "Teleport",
+                    "type": "Button",
+                    "id": "5ff50b46-f40e-4831-8b62-5504af3eff05",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ebc64f80-51df-412e-87f0-fb12e234d57d",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Teleport",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
