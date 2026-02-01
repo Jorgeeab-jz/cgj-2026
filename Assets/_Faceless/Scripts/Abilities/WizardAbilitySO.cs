@@ -20,6 +20,7 @@ public class WizardAbilitySO : AbilitySO
     private float _lastFireTime;
     private float _lastIceTime;
     private Animator _animator;
+    private Rigidbody2D _rb;
     private bool _isCasting;
     private Coroutine _castCoroutine;
     private float _cachedRunSpeed; // To store speed during cast
@@ -30,6 +31,7 @@ public class WizardAbilitySO : AbilitySO
         if (owner != null)
         {
             _animator = owner.GetComponentInChildren<Animator>();
+            _rb = owner.GetComponent<Rigidbody2D>();
         }
     }
 
@@ -97,8 +99,20 @@ public class WizardAbilitySO : AbilitySO
         yield return new WaitForSeconds(RecoveryTime);
 
         // 6. Return to Idle and Unlock
-        PlayAnimation("Idle");
         Manager.RuntimeStats.RunSpeed = _cachedRunSpeed;
+        
+        // Wait a frame for physics to update velocity if input is held
+        yield return null;
+
+        if (_rb != null && _rb.linearVelocity.magnitude > 0.1f)
+        {
+            PlayAnimation("Run");
+        }
+        else
+        {
+            PlayAnimation("Idle");
+        }
+
         _isCasting = false;
         _castCoroutine = null;
     }

@@ -110,5 +110,11 @@ public class AbilityManager : MonoBehaviour
         RuntimeStats.TimeTillJumpApex = BaseStats.TimeTillJumpApex;
         RuntimeStats.MaxJumpHeight = BaseStats.MaxJumpHeight;
         RuntimeStats.MaxNumberJumps = BaseStats.MaxNumberJumps;
+        RuntimeStats.RunSpeed = BaseStats.RunSpeed;
+    }
+
+    public void StopMovement() 
+    {
+        RuntimeStats.RunSpeed = 0f;
     }
 }
