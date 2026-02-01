@@ -79,8 +79,7 @@ public class WizardAbilitySO : AbilitySO
         _isCasting = true;
 
         // 1. Lock Movement
-        _cachedRunSpeed = Manager.RuntimeStats.RunSpeed;
-        Manager.RuntimeStats.RunSpeed = 0f;
+        Manager.EnablePlayerMovement(false);
 
         // 2. Play Animation
         PlayAnimation(isFire ? "CastFire" : "CastIce");
@@ -99,8 +98,8 @@ public class WizardAbilitySO : AbilitySO
         yield return new WaitForSeconds(RecoveryTime);
 
         // 6. Return to Idle and Unlock
-        Manager.RuntimeStats.RunSpeed = _cachedRunSpeed;
-        
+        Manager.EnablePlayerMovement(true);
+
         // Wait a frame for physics to update velocity if input is held
         yield return null;
 

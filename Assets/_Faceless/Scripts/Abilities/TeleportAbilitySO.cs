@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 [CreateAssetMenu(menuName = "Abilities/Teleport")]
 public class TeleportAbilitySO : AbilitySO
@@ -16,12 +17,24 @@ public class TeleportAbilitySO : AbilitySO
     [Tooltip("Cooldown in seconds between teleports.")]
     public float Cooldown = 0.5f;
 
+    [Header("Animation Settings")]
+    public float StartDelay = 0.1f;
+    public float EndDelay = 0.1f;
+
     private float _lastTeleportTime;
     private Rigidbody2D _ownerRb;
+    private Animator _animator;
+    private bool _isTeleporting;
+    private float _cachedRunSpeed;
+    private Coroutine _teleportCoroutine;
 
     public override void Initialize(GameObject owner, AbilityManager manager, AbilityInputReader inputReader)
     {
         base.Initialize(owner, manager, inputReader);
+        if (owner != null)
+        {
+            _animator = owner.GetComponentInChildren<Animator>();
+        }
     }
 
     public override void OnEquip()
@@ -36,6 +49,15 @@ public class TeleportAbilitySO : AbilitySO
     public override void OnUnequip()
     {
         InputReader.OnPrimaryActionChanged -= HandleTeleportInput;
+        
+        // Cleanup if ability is swapped mid-teleport
+        if (_isTeleporting)
+        {
+             if (Manager != null && _teleportCoroutine != null) Manager.StopCoroutine(_teleportCoroutine);
+             if (Manager != null && Manager.RuntimeStats != null) Manager.RuntimeStats.RunSpeed = _cachedRunSpeed;
+             _isTeleporting = false;
+        }
+
         _ownerRb = null;
     }
 
@@ -46,13 +68,56 @@ public class TeleportAbilitySO : AbilitySO
             return;
         }
 
-        if (isPressed && Time.time >= _lastTeleportTime + Cooldown)
+        if (isPressed && Time.time >= _lastTeleportTime + Cooldown && !_isTeleporting)
         {
-            PerformTeleport();
+            if (Manager != null)
+            {
+               _teleportCoroutine = Manager.StartCoroutine(TeleportRoutine());
+            }
         }
     }
 
-    private void PerformTeleport()
+    private IEnumerator TeleportRoutine()
+    {
+        _isTeleporting = true;
+        
+        // 1. Lock Movement
+        Manager.EnablePlayerMovement(false);
+
+        // 2. Start Anim
+        if (_animator != null) _animator.Play("TeleportStart");
+
+        // 3. Wait for Disappear
+        yield return new WaitForSeconds(StartDelay);
+
+        // 4. Move
+        PerformTeleportStep();
+
+        // 5. End Anim
+        if (_animator != null) _animator.Play("TeleportEnd");
+
+        // 6. Wait for Reappear
+        yield return new WaitForSeconds(EndDelay);
+
+        // 7. Restore & Safety Check
+        Manager.EnablePlayerMovement(true);
+
+        yield return null; // Wait for physics
+
+        if (_ownerRb != null && _ownerRb.linearVelocity.magnitude > 0.1f)
+        {
+             if (_animator != null) _animator.Play("Run");
+        }
+        else
+        {
+             if (_animator != null) _animator.Play("Idle");
+        }
+
+        _isTeleporting = false;
+        _teleportCoroutine = null;
+    }
+
+    private void PerformTeleportStep()
     {
         if (Owner == null) return;
 

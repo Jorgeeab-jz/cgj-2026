@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 [CreateAssetMenu(menuName = "Abilities/Telekinesis")]
 public class TelekinesisAbilitySO : AbilitySO
@@ -31,9 +32,17 @@ public class TelekinesisAbilitySO : AbilitySO
     // We track ignored colliders to restore them later
     private System.Collections.Generic.List<Collider2D> _ignoredColliders = new System.Collections.Generic.List<Collider2D>();
 
+    private Animator _animator;
+    private Rigidbody2D _rb;
+
     public override void Initialize(GameObject owner, AbilityManager manager, AbilityInputReader inputReader)
     {
         base.Initialize(owner, manager, inputReader);
+        if (owner != null)
+        {
+            _animator = owner.GetComponentInChildren<Animator>();
+            _rb = owner.GetComponent<Rigidbody2D>();
+        }
     }
 
     public override void OnEquip()
@@ -54,16 +63,6 @@ public class TelekinesisAbilitySO : AbilitySO
         if (_joint != null && _grabbedRB != null)
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(InputReader.MousePosition);
-            
-            // Check if mouse stopped moving effectively
-            float mouseDelta = Vector2.Distance(mousePos, _lastMouseWorldPos);
-            if (mouseDelta < 0.001f)
-            {
-                // Kill momentum if mouse is stationary
-                // Helps object settle immediately without fighting the high drag sliding
-                _grabbedRB.linearVelocity = Vector2.zero;
-                _grabbedRB.angularVelocity = 0f;
-            }
             _lastMouseWorldPos = mousePos;
 
             // Use constant speed regardless of mass
@@ -120,22 +119,11 @@ public class TelekinesisAbilitySO : AbilitySO
             _grabbedRB.linearDamping = HeldObjectDrag;
             
             // --- PLAYER MOVEMENT FREEZE ---
-            if (Manager.RuntimeStats != null)
-            {
-                _originalWalkSpeed = Manager.RuntimeStats.WalkSpeed;
-                _originalRunSpeed = Manager.RuntimeStats.RunSpeed;
-                _originalAirAccel = Manager.RuntimeStats.AirAcceleration;
-                _originalRunAirAccel = Manager.RuntimeStats.RunAirAcceleration;
+            Manager.EnablePlayerMovement(false);
 
-                Manager.RuntimeStats.WalkSpeed = 0f;
-                Manager.RuntimeStats.RunSpeed = 0f;
-                Manager.RuntimeStats.AirAcceleration = 0f;
-                Manager.RuntimeStats.RunAirAcceleration = 0f;
-            }
-            
             // --- COLLISION EXCLUSION LOGIC ---
             // Instead of excludeLayers (which ignores walls if on Default), we use IgnoreCollision.
-            
+
             // 1. Ignore Player Colliders
             if (Owner != null)
             {
@@ -146,33 +134,6 @@ public class TelekinesisAbilitySO : AbilitySO
                     _ignoredColliders.Add(ownerCol);
                 }
             }
-
-            // 2. Ignore OTHER Grabbable Objects (Optional, but requested)
-            // To do this efficiently, we'd need to find all other grabbables. 
-            // A physics overlap check is cleaner than iterating the whole scene.
-            // We search for nearby Grabbables (e.g., radius 20) and ignore them? 
-            // Or we rely on 'excludeLayers' ONLY for Grabbables if they are on a distinct layer?
-            // The user requested: "nor other grabbable objects".
-            // If we assume Grabbables are on 'Default', we cannot use excludeLayers without breaking walls.
-            // Safest compromise: Only ignore Player for now, OR allow brief Overlap check.
-            // Let's stick to Player Ignore first as that's the main annoyance near the character.
-            // If the user REALLY wants grabbables to ignore each other, they SHOULD be on a 'Props' layer.
-            // I will add a check: IF Grabbable Layer != Default/Ground, use excludeLayers for inter-prop collision.
-            // Otherwise, warn the user.
-            
-            // For now, let's purely rely on IgnoreCollision for Player 
-            // AND use excludeLayers specifically masked against GrabbableLayers IF it's safe?
-            // No, safer to just ignore Player explicitely.
-            // But to satisfy "nor other grabbable objects", I'll do a best-effort OverlapSphere around the player? No.
-            
-            // Wait, if I use excludeLayers JUST for GrabbableLayers mask?
-            // If GrabbableItemsLayer == Default, then excludeLayers |= Default hides Walls.
-            // So we CANNOT use excludeLayers if Grabbables share a layer with Static Geometry.
-            // I will implement explicit Player Only ignorance for now to fix the main "Pushing Player" bug safely.
-            
-            // (Leaving code structure simple to avoid overengineering without layer info)
-
-            // --- END COLLISION LOGIC ---
 
             _joint = _grabbedRB.gameObject.AddComponent<TargetJoint2D>();
             _joint.anchor = _grabbedRB.transform.InverseTransformPoint(hit.point);
@@ -187,6 +148,11 @@ public class TelekinesisAbilitySO : AbilitySO
             _joint.dampingRatio = 1f;
             
             Cursor.visible = false;
+
+            if (_animator != null)
+            {
+                _animator.Play("CastTelekinesis");
+            }
         }
     }
 
@@ -217,17 +183,31 @@ public class TelekinesisAbilitySO : AbilitySO
         }
         
         // Restore Player Movement
-        if (Manager.RuntimeStats != null)
-        {
-            Manager.RuntimeStats.WalkSpeed = _originalWalkSpeed;
-            Manager.RuntimeStats.RunSpeed = _originalRunSpeed;
-            Manager.RuntimeStats.AirAcceleration = _originalAirAccel;
-            Manager.RuntimeStats.RunAirAcceleration = _originalRunAirAccel;
-        }
-        
+        Manager.EnablePlayerMovement(true);
+
         _ignoredColliders.Clear();
         _grabbedRB = null;
         _grabbedBreakable = null;
         Cursor.visible = true;
+
+        if (Manager != null)
+        {
+            Manager.StartCoroutine(RestoreAnimationRoutine());
+        }
+    }
+
+    private IEnumerator RestoreAnimationRoutine()
+    {
+        // Wait a frame for physics to update velocity if input is held
+        yield return null;
+
+        if (_rb != null && _rb.linearVelocity.magnitude > 0.1f)
+        {
+            if (_animator != null) _animator.Play("Run");
+        }
+        else
+        {
+            if (_animator != null) _animator.Play("Idle");
+        }
     }
 }
