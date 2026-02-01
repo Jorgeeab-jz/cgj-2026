@@ -16,7 +16,8 @@ public class MusicManager : MonoBehaviour
     private Dictionary<AbilityType, AudioSource> _audioSources = new Dictionary<AbilityType, AudioSource>();
     private AudioSource _zoneAudioSource;
     private AbilityType _currentAbilityType;
-    private bool _isZoneActive;
+    private List<AudioClip> _activeZoneClips = new List<AudioClip>();
+    private bool _isZoneActive => _activeZoneClips.Count > 0;
 
     private void Start()
     {
@@ -99,25 +100,46 @@ public class MusicManager : MonoBehaviour
 
     private void HandleZoneEnter(AudioClip clip)
     {
-        _isZoneActive = true;
+        if (clip == null) return;
+        
+        if (!_activeZoneClips.Contains(clip))
+        {
+            _activeZoneClips.Add(clip);
+        }
 
         foreach (var source in _audioSources.Values)
         {
             source.DOFade(0f, _crossFadeDuration);
         }
 
-        if (clip != null)
+        PlayZoneMusic(clip);
+    }
+
+    private void HandleZoneExit(AudioClip clip)
+    {
+        if (clip != null && _activeZoneClips.Contains(clip))
         {
-            _zoneAudioSource.clip = clip;
-            _zoneAudioSource.Play();
-            _zoneAudioSource.DOFade(_maxVolume, _crossFadeDuration);
+            _activeZoneClips.Remove(clip);
+        }
+
+        if (_isZoneActive)
+        {
+            // Play the last added clip (nested zone behavior)
+            PlayZoneMusic(_activeZoneClips.Last());
+        }
+        else
+        {
+            _zoneAudioSource.DOFade(0f, _crossFadeDuration);
+            HandleMusicChange(_currentAbilityType);
         }
     }
 
-    private void HandleZoneExit()
+    private void PlayZoneMusic(AudioClip clip)
     {
-        _isZoneActive = false;
-        _zoneAudioSource.DOFade(0f, _crossFadeDuration);
-        HandleMusicChange(_currentAbilityType);
+        if (_zoneAudioSource.clip == clip && _zoneAudioSource.isPlaying) return;
+
+        _zoneAudioSource.clip = clip;
+        _zoneAudioSource.Play();
+        _zoneAudioSource.DOFade(_maxVolume, _crossFadeDuration);
     }
 }

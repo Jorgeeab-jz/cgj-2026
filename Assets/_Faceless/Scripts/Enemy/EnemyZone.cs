@@ -61,7 +61,7 @@ public class EnemyZone : MonoBehaviour
 
             if (_managerLinker != null)
             {
-                _managerLinker.RaiseZoneExitMusicRequest();
+                _managerLinker.RaiseZoneExitMusicRequest(_zoneMusic);
             }
         }
     }
