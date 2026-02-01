@@ -8,6 +8,7 @@ public class Door : MonoBehaviour
     [SerializeField] private SpriteRenderer _doorSprite;
     [SerializeField] private Collider2D _interactionCollider;
     [SerializeField] private GameObject _levelCompleteCanvas;
+    [SerializeField] private GameObject _doorPrompt;
 
     private void OnEnable()
     {
@@ -54,6 +55,8 @@ public class Door : MonoBehaviour
         {
              _interactionCollider.enabled = true;
         }
+
+        _doorPrompt.SetActive(true);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
