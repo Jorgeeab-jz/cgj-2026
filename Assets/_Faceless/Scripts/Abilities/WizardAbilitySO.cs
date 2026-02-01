@@ -52,6 +52,9 @@ public class WizardAbilitySO : AbilitySO
         base.OnUpdate();
 
         if (_isCasting) return;
+        
+        // Prevent casting while moving
+        if (Manager != null && Manager.IsPlayerMoving()) return;
 
         // Check Primary (Fire)
         if (InputReader.IsPrimaryPressed && Time.time >= _lastFireTime + FireRate)

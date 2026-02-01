@@ -101,6 +101,11 @@ public class AbilityManager : MonoBehaviour
         _movementInputReader.enabled = state;
     }
 
+    public bool IsPlayerMoving()
+    {
+        return _movementInputReader.GetNormalizedHorizontalDirection().x != 0f;
+    }
+
     public void UnequipCurrentAbility()
     {
         EquipAbility(null);
