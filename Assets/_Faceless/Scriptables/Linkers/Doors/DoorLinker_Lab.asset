@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2f849df1b43b34db4ac572f30ff204, type: 3}
   m_Name: DoorLinker_Lab
   m_EditorClassIdentifier: Assembly-CSharp::DoorLinker
-  keysRequired: 3
+  keysRequired: 9
   keysCollected: 0

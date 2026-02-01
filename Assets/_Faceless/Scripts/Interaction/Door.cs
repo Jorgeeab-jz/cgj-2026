@@ -6,6 +6,8 @@ public class Door : MonoBehaviour
     [SerializeField] private DoorLinker doorLinker;
     [SerializeField] private SpriteRenderer[] keyLights;
     [SerializeField] private SpriteRenderer _doorSprite;
+    [SerializeField] private Collider2D _interactionCollider;
+    [SerializeField] private GameObject _levelCompleteCanvas;
 
     private void OnEnable()
     {
@@ -47,5 +49,35 @@ public class Door : MonoBehaviour
         Debug.Log("Door Opened!");
         
         _doorSprite.DOFade(0f, 0.5f);
+
+        if (_interactionCollider != null)
+        {
+             _interactionCollider.enabled = true;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.TryGetComponent<PlayerUtilities>(out var player))
+        {
+            player.SetCurrentDoor(this);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.TryGetComponent<PlayerUtilities>(out var player))
+        {
+            player.SetCurrentDoor(null);
+        }
+    }
+
+    public void Interact()
+    {
+        if (_levelCompleteCanvas != null)
+        {
+            _levelCompleteCanvas.SetActive(true);
+            Time.timeScale = 0;
+        }
     }
 }

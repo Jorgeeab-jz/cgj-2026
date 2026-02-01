@@ -4,9 +4,11 @@ using UnityEngine.InputSystem;
 public class PlayerUtilities : MonoBehaviour
 {
     [SerializeField] private InputActionReference _wayPointaction;
+    [SerializeField] private InputActionReference _interactAction;
 
     private Transform _currentTeleportDestination;
     private Vector3 _respawnPoint;
+    private Door _currentDoor;
 
     private void Start()
     {
@@ -16,15 +18,19 @@ public class PlayerUtilities : MonoBehaviour
     private void OnEnable()
     {
         _wayPointaction.action.performed += OnWaypointPressed;
+        _interactAction.action.performed += OnInteractPressed;
 
         _wayPointaction.action.Enable();
+        _interactAction.action.Enable();
     }
 
     private void OnDisable()
     {
         _wayPointaction.action.performed -= OnWaypointPressed;
+        _interactAction.action.performed -= OnInteractPressed;
 
         _wayPointaction.action.Disable();
+        _interactAction.action.Disable();
     }
 
     private void OnWaypointPressed (InputAction.CallbackContext ctx) 
@@ -34,6 +40,19 @@ public class PlayerUtilities : MonoBehaviour
             transform.position = _currentTeleportDestination.position;
         }
     } 
+
+    private void OnInteractPressed(InputAction.CallbackContext ctx)
+    {
+        if (_currentDoor != null)
+        {
+            _currentDoor.Interact();
+        }
+    }
+
+    public void SetCurrentDoor(Door door)
+    {
+        _currentDoor = door;
+    }
 
     public void SetTeleportDestination(Transform destination)
     {

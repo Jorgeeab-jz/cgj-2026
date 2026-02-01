@@ -79174,6 +79174,8 @@ MonoBehaviour:
   - {fileID: 77597382}
   - {fileID: 1919875787}
   _doorSprite: {fileID: 1218033667}
+  _interactionCollider: {fileID: 1218033669}
+  _levelCompleteCanvas: {fileID: 1054280988}
 --- !u!212 &1218033667
 SpriteRenderer:
   serializedVersion: 2
@@ -79287,7 +79289,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
