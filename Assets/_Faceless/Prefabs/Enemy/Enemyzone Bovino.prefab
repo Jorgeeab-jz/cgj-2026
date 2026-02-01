@@ -41,7 +41,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1762972989893118747, guid: 33699363ffe4c884fbd2e91016839e2d, type: 3}
       propertyPath: m_Name
-      value: Enemyzone Variant
+      value: Enemyzone Bovino
       objectReference: {fileID: 0}
     - target: {fileID: 1762972989893118747, guid: 33699363ffe4c884fbd2e91016839e2d, type: 3}
       propertyPath: m_Layer
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyZone
   _enemyPrefab: {fileID: 3107063690923335931, guid: 202142db218a2ad4f8f9570b5247c319, type: 3}
   _spawnPoint: {fileID: 1226029495944242492}
-  _zoneMusic: {fileID: 8300000, guid: 85e40bcfbd71cec4f9d4ff34f3cd6c80, type: 3}
+  _zoneMusic: {fileID: 8300000, guid: 9f82b0823df50c241b62617a83da8cb6, type: 3}
   _managerLinker: {fileID: 11400000, guid: 3488a84d3b344d645a7d7bd3c7310d9b, type: 2}
 --- !u!61 &8299882532595139411
 BoxCollider2D:

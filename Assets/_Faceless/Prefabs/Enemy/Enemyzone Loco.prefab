@@ -15,7 +15,7 @@ PrefabInstance:
     - target: {fileID: 5716933333750886478, guid: f245661847adb344d8d3c1857215d054, type: 3}
       propertyPath: _zoneMusic
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: 44d79398e287cbc4bbab96c114cba18d, type: 3}
     - target: {fileID: 5716933333750886478, guid: f245661847adb344d8d3c1857215d054, type: 3}
       propertyPath: _enemyPrefab
       value: 
