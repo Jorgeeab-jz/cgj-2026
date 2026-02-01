@@ -15,8 +15,8 @@ MonoBehaviour:
   Type: 4
   AbilityName: Poder Arcano
   Description: 
-  Icon: {fileID: 0}
-  AbilityColor: {r: 0.83790636, g: 0, b: 1, a: 1}
+  Icon: {fileID: 684747625084765545, guid: f1483e147af3d54468fcac6e5eaca373, type: 3}
+  AbilityColor: {r: 1, g: 1, b: 1, a: 1}
   FireOrbPrefab: {fileID: 6699580696638159749, guid: 47e5c5362d863e244b3cf6bbc3e685fa, type: 3}
   IceOrbPrefab: {fileID: 3780635186595388514, guid: 5fe0e8447c4ec72429d0d39845f9ec40, type: 3}
   OrbSpeed: 10

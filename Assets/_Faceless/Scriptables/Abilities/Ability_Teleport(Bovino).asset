@@ -15,8 +15,8 @@ MonoBehaviour:
   Type: 3
   AbilityName: Traslado de Llamas
   Description: 
-  Icon: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  AbilityColor: {r: 1, g: 0.10980392, b: 0, a: 1}
+  Icon: {fileID: 5161510039277190039, guid: f0948fba268099c41bb4e052ae523ff8, type: 3}
+  AbilityColor: {r: 1, g: 1, b: 1, a: 1}
   MaxTeleportDistance: 5
   ObstacleLayers:
     serializedVersion: 2

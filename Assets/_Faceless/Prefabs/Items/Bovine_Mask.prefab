@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &338932909709600061
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2210042674676203191, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5161510039277190039, guid: f0948fba268099c41bb4e052ae523ff8, type: 3}
+    - target: {fileID: 2210042674676203191, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210042674676203191, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210042674676203191, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210042674676203191, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944162608918791139, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_Name
+      value: Bovine_Mask Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944162608918791139, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720531085753450859, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720531085753450859, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720531085753450859, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720531085753450859, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720531085753450859, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720531085753450859, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720531085753450859, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720531085753450859, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720531085753450859, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720531085753450859, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25f90d4028d327e43bfc694456d053bb, type: 3}
